@@ -1,0 +1,18 @@
+{
+  "messageId": "MSG-OC-0002",
+  "correlationId": "CORR-OC-0002",
+  "source": "EXCHANGE_STATION",
+  "flowType": "OBLIG_CAUTIONNEE",
+  "signatureStatus": "INVALID",
+  "receivedAt": "2026-05-15T10:05:00",
+  "payload": {
+    "typeMessage": "CUSDEC",
+    "typeDocument": "O06",
+    "numeroDemande": "D15369OC2",
+    "numeroDossier": "88276219",
+    "numeroMessage": "LU1327028204"
+  },
+  "technicalMetadata": {
+    "originalFileName": "O06_INVALID.xml"
+  }
+}
