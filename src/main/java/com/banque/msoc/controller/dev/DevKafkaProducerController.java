@@ -11,7 +11,7 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/dev/kafka")
+@RequestMapping("api/oc")
 @Profile("dev")
 @RequiredArgsConstructor
 public class DevKafkaProducerController {
@@ -21,7 +21,7 @@ public class DevKafkaProducerController {
     @Value("${msoc.kafka.inbound-topic}")
     private String inboundTopic;
 
-    @PostMapping("/inbound")
+    @PostMapping("/dev/kafka/inbound")
     public ResponseEntity<String> publishInbound(@RequestBody OcInboundKafkaMessage message) throws JsonProcessingException {
         kafkaTemplate.send(inboundTopic, message.getMessageId(), objectMapper.writeValueAsString(message));
         return ResponseEntity.ok("Message publié vers Kafka topic: " + inboundTopic);

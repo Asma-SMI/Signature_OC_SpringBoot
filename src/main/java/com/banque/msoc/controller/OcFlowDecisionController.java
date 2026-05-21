@@ -10,7 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/oblig-caut/flows")
+@RequestMapping("/api/oc/flows")
 @RequiredArgsConstructor
 public class OcFlowDecisionController {
     private final OcFlowDecisionService decisionService;

@@ -13,7 +13,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/oblig-caut/flows")
+@RequestMapping("/api/oc/flows")
 @RequiredArgsConstructor
 public class OcFlowQueryController {
     private final OcFlowQueryService queryService;

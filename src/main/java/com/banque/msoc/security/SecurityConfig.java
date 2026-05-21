@@ -3,10 +3,18 @@ package com.banque.msoc.security;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
+import org.springframework.security.authentication.AbstractAuthenticationToken;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.oauth2.jwt.Jwt;
+import org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationToken;
 import org.springframework.security.web.SecurityFilterChain;
+
+import java.util.ArrayList;
+import java.util.Collection;
 
 @Configuration
 @EnableWebSecurity
@@ -14,22 +22,40 @@ public class SecurityConfig {
 
     @Bean
     @Profile("dev")
-    SecurityFilterChain devSecurity(HttpSecurity http) throws Exception {
-        return http.csrf(csrf -> csrf.disable())
-                .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-                .authorizeHttpRequests(auth -> auth.anyRequest().permitAll())
-                .build();
-    }
-
-    @Bean
-    @Profile("!dev")
-    SecurityFilterChain prodSecurity(HttpSecurity http) throws Exception {
+    SecurityFilterChain securedDevSecurity(HttpSecurity http) throws Exception {
         return http.csrf(csrf -> csrf.disable())
                 .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/oblig-caut/flows/*/decision").hasRole("DOWNSTREAM")
-                        .requestMatchers("/api/oblig-caut/flows/**").hasRole("CONSULTATION")
-                        .anyRequest().authenticated())
+                        .requestMatchers("/api/oc/dev/**").permitAll()
+
+                        .requestMatchers("/api/oc/flows/*/decision")
+                        .hasAnyAuthority("OC_DOWNSTREAM")
+
+                        .requestMatchers("/api/oc/flows/**")
+                        .hasAnyAuthority("OC_CONSULTATION")
+
+                        .anyRequest().authenticated()
+                )
+                .oauth2ResourceServer(oauth2 -> oauth2
+                        .jwt(jwt -> jwt.jwtAuthenticationConverter(this::convertJwt))
+                )
                 .build();
+    }
+
+    private AbstractAuthenticationToken convertJwt(Jwt jwt) {
+        Collection<GrantedAuthority> authorities = new ArrayList<>();
+
+        Object rolesClaim = jwt.getClaim("roles");
+
+        if (rolesClaim instanceof Collection<?> roles) {
+            for (Object role : roles) {
+                String roleName = String.valueOf(role).trim();
+                if (!roleName.isBlank()) {
+                    authorities.add(new SimpleGrantedAuthority(roleName));
+                }
+            }
+        }
+
+        return new JwtAuthenticationToken(jwt, authorities, jwt.getSubject());
     }
 }
