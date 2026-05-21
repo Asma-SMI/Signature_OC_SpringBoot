@@ -31,7 +31,7 @@ En profil `dev`, la securite est ouverte et un endpoint de simulation Kafka est 
 ## Simuler un flux entrant sans station d'echange
 
 ```http
-POST http://localhost:8082/dev/kafka/inbound
+POST http://localhost:8082/api/oc/dev/kafka/inbound
 Content-Type: application/json
 ```
 
@@ -56,7 +56,7 @@ OC_FLOW_PAYLOAD
 ## Tester une decision intermediaire
 
 ```http
-POST http://localhost:8082/api/oblig-caut/flows/88276218/decision?finalize=false
+POST http://localhost:8082/api/oc/flows/88276218/decision?finalize=false
 X-User-Id: 202
 X-Role-Code: CONTROLEUR_1
 X-Org-Node-Id: AGENCE_001
@@ -76,7 +76,7 @@ Resultat attendu : operation `IN_PROGRESS`, dossier non impacte, pas d'Outbox.
 ## Tester une decision finale
 
 ```http
-POST http://localhost:8082/api/oblig-caut/flows/88276218/decision?finalize=true
+POST http://localhost:8082/api/oc/flows/88276218/decision?finalize=true
 X-User-Id: 203
 X-Role-Code: CONTROLEUR_2
 X-Org-Node-Id: AGENCE_001
