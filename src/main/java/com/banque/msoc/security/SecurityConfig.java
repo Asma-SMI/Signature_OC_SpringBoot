@@ -28,8 +28,8 @@ public class SecurityConfig {
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/api/oc/dev/**").permitAll()
 
-                        .requestMatchers("/api/oc/flows/*/decision")
-                        .hasAnyAuthority("OC_DOWNSTREAM")
+                        .requestMatchers("/api/oc/flows/*/decision").permitAll()
+                        //.hasAnyAuthority("OC_DOWNSTREAM")
 
                         .requestMatchers("/api/oc/flows/**")
                         .hasAnyAuthority("OC_CONSULTATION")
