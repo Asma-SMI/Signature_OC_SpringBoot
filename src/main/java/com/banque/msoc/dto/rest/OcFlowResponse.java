@@ -19,5 +19,6 @@ public class OcFlowResponse {
     private String correlationId;
     private LocalDateTime receivedAt;
     private LocalDateTime finalizedAt;
-    private OcFlowDetailResponse detail;
+    private OcFlowDetailResponse detail;  //détail complet
+    private OcFlowDetailSummaryResponse summaryDetail; //résumé utile pour le tableau
 }

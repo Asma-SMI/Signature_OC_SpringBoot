@@ -27,12 +27,14 @@ public class OcFlowQueryService {
 
     @Transactional(readOnly = true)
     public Page<OcFlowResponse> search(OcFlowSearchCriteria criteria, Pageable pageable) {
-        return flowRepository.findAll(spec(criteria), pageable).map(mapper::toResponse);
+        return flowRepository.findAll(spec(criteria), pageable).map(mapper::toSummaryResponse);
     }
 
     @Transactional(readOnly = true)
     public OcFlowResponse getByBusinessKey(String businessKey) {
-        OcFlow flow = flowRepository.findByBusinessKey(businessKey).orElseThrow(() -> new FlowNotFoundException(businessKey));
+        OcFlow flow = flowRepository.findWithDetailByBusinessKey(businessKey)
+                .orElseThrow(() -> new FlowNotFoundException(businessKey));
+
         return mapper.toResponse(flow);
     }
 

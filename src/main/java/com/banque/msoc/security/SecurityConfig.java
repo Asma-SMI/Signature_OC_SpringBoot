@@ -31,8 +31,8 @@ public class SecurityConfig {
                         .requestMatchers("/api/oc/flows/*/decision").permitAll()
                         //.hasAnyAuthority("OC_DOWNSTREAM")
 
-                        .requestMatchers("/api/oc/flows/**")
-                        .hasAnyAuthority("OC_CONSULTATION")
+                        .requestMatchers("/api/oc/flows/**").permitAll()
+                      //  .hasAnyAuthority("OC_CONSULTATION")
 
                         .anyRequest().authenticated()
                 )
