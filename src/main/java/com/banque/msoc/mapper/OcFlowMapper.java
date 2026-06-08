@@ -1,9 +1,7 @@
 package com.banque.msoc.mapper;
 
-import com.banque.msoc.domain.entity.OcDecisionAudit;
-import com.banque.msoc.domain.entity.OcFlow;
-import com.banque.msoc.domain.entity.OcFlowDetail;
-import com.banque.msoc.domain.entity.OcFlowPayload;
+import com.banque.msoc.domain.entity.*;
+import com.banque.msoc.dto.kafka.OcOutboundEventResponse;
 import com.banque.msoc.dto.rest.*;
 import org.springframework.stereotype.Component;
 
@@ -159,6 +157,22 @@ public class OcFlowMapper {
                 .payloadJson(payload.getPayloadJson())
                 .createdBy(payload.getCreatedBy())
                 .createdAt(payload.getCreatedAt())
+                .build();
+    }
+
+    public OcOutboundEventResponse toOutboundEventResponse(OcOutboundEvent event) {
+        if (event == null) {
+            return null;
+        }
+
+        return OcOutboundEventResponse.builder()
+                .messageId(event.getMessageId())
+                .topic(event.getTopic())
+                .status(event.getStatus())
+                .retryCount(event.getRetryCount())
+                .errorMessage(event.getErrorMessage())
+                .createdAt(event.getCreatedAt())
+                .sentAt(event.getSentAt())
                 .build();
     }
 }

@@ -17,4 +17,6 @@ public interface OcFlowRepository extends JpaRepository<OcFlow, Long>, JpaSpecif
     @EntityGraph(attributePaths = "detail")
     Optional<OcFlow> findWithDetailByBusinessKey(String businessKey);
 
+    long countByStatus(OcFlowStatus status);
+
 }

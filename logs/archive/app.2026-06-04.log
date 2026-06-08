@@ -1,0 +1,1291 @@
+2026-06-04 08:35:10.957 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h2m46s161ms992µs).
+2026-06-04 09:21:43.489 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@17951bbf (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:21:43.491 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@20bb00b (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:21:43.491 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5ca5ff29 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:21:43.492 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@70d0558b (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:21:43.492 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@721893c8 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:21:43.492 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@a897ec1 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:21:43.492 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@67f2efdc (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:21:43.493 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@118d921a (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:21:43.493 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@25f094ee (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:21:43.493 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1462a55a (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:27:54.985 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6928938c (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:27:54.987 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5ee1ed5c (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:27:54.991 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@18e77733 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:27:54.993 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@18bd9923 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:27:54.993 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@d019091 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:27:54.993 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@825583f (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:27:54.994 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@46b630e2 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:27:54.994 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3594a132 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:27:54.995 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@101ef979 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:27:54.995 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@7b726f (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:59:07.308 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1af42ff0 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:59:07.309 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6ad8d825 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:59:07.309 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3be6da84 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:59:07.310 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@48509f77 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:59:07.310 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@74499c75 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:59:07.311 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@c604936 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:59:07.311 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@51d0f96a (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:59:07.311 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@17640575 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:59:07.311 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3bc1d88a (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 09:59:07.313 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@b498bf8 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 10:33:11.412 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@29a94ab5 (Erreur d'E/S: Invalid Operation, NOT Connected). Possibly consider using a shorter maxLifetime value.
+2026-06-04 10:33:16.435 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@59b6cb46 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 10:33:21.512 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@ee4909c (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 10:33:26.539 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5496798a (Erreur d'E/S: Invalid Operation, NOT Connected). Possibly consider using a shorter maxLifetime value.
+2026-06-04 10:33:31.562 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2c79ce62 (Erreur d'E/S: Invalid Operation, NOT Connected). Possibly consider using a shorter maxLifetime value.
+2026-06-04 10:33:36.579 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@48cb03b5 (Erreur d'E/S: Invalid Operation, NOT Connected). Possibly consider using a shorter maxLifetime value.
+2026-06-04 10:33:36.778 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08006
+2026-06-04 10:33:36.779 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30262ms (total=4, active=0, idle=4, waiting=0)
+2026-06-04 10:33:36.779 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 17002, SQLState: 08006
+2026-06-04 10:33:36.779 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Erreur d'E/S: Invalid Operation, NOT Connected
+2026-06-04 10:33:36.824 [scheduling-1] ERROR o.s.s.support.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:466)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:604)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:373)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at com.banque.msoc.kafka.OcOutboxPublisher$$SpringCGLIB$$0.publishPendingEvents(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection [HikariPool-1 - Connection is not available, request timed out after 30262ms (total=4, active=0, idle=4, waiting=0)] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:51)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:129)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:156)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getConnectionForTransactionManagement(LogicalConnectionManagedImpl.java:286)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.begin(LogicalConnectionManagedImpl.java:294)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.begin(JdbcResourceLocalTransactionCoordinatorImpl.java:232)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.begin(TransactionImpl.java:83)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:176)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:420)
+	... 23 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30262ms (total=4, active=0, idle=4, waiting=0)
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:686)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:179)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:144)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:127)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:46)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:126)
+	... 30 common frames omitted
+Caused by: java.sql.SQLRecoverableException: Erreur d'E/S: Invalid Operation, NOT Connected
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:10151)
+	at oracle.jdbc.driver.PhysicalConnection.setNetworkTimeout(PhysicalConnection.java:10245)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:562)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionDead(PoolBase.java:169)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:168)
+	... 35 common frames omitted
+Caused by: oracle.net.ns.NetException: Invalid Operation, NOT Connected
+	at oracle.net.nt.TcpNTAdapter.setOption(TcpNTAdapter.java:757)
+	at oracle.net.ns.NSProtocol.setOption(NSProtocol.java:719)
+	at oracle.net.ns.NSProtocol.setSocketReadTimeout(NSProtocol.java:1071)
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:10148)
+	... 39 common frames omitted
+2026-06-04 10:33:46.903 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@377d4485 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 10:33:51.932 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@8ba7d77 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:03:36.274 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@67870dea (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:03:36.339 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3c7eb4f4 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:03:36.344 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4706c9a4 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:03:36.360 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@205af8f7 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:03:36.361 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6fd95d63 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:03:36.362 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4b048ed4 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:03:36.607 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6b431e15 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:03:36.608 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@7328a6a8 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:03:36.608 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5b50ceba (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:39:52.745 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@16fc555f (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:39:52.761 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@665c2ee1 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:39:52.766 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@72b34876 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:39:52.781 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6aef955d (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:39:52.798 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@127c192a (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:39:52.800 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@45f29f56 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:39:52.808 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@978f792 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:39:52.808 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6b62f96 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:39:52.808 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4b24b3a2 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:39:52.810 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@53898ed1 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:42:27.848 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@12a7e3e5 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:42:27.849 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@62835fbe (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:42:27.849 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@33b51691 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:42:27.872 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@35f0d08f (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:42:27.873 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@37fbc985 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:42:27.874 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@79f635b3 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:42:27.875 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@36f7fde9 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:42:27.876 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3b1654eb (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:42:27.876 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@203fb1e8 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:42:27.876 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@77b8e249 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:46:31.563 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5e06602d (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:46:36.581 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2eeeb14d (Erreur d'E/S: Invalid Operation, NOT Connected). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:46:41.701 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@7f149559 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:46:46.741 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@42f9e6f9 (Erreur d'E/S: Invalid Operation, NOT Connected). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:46:50.789 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5db61fe3 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:46:50.790 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@291fa66a (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:46:50.790 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3b980e75 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:46:51.313 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3d46dc (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:46:51.314 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4f778938 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:46:56.558 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08006
+2026-06-04 11:46:56.558 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30008ms (total=0, active=0, idle=0, waiting=0)
+2026-06-04 11:46:56.558 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 17002, SQLState: 08006
+2026-06-04 11:46:56.558 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Erreur d'E/S: The Network Adapter could not establish the connection (CONNECTION_ID=n+JLrtoYQbSQW9kq909Fkw==)
+2026-06-04 11:46:56.560 [scheduling-1] ERROR o.s.s.support.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:466)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:604)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:373)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at com.banque.msoc.kafka.OcOutboxPublisher$$SpringCGLIB$$0.publishPendingEvents(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection [HikariPool-1 - Connection is not available, request timed out after 30008ms (total=0, active=0, idle=0, waiting=0)] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:51)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:129)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:156)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getConnectionForTransactionManagement(LogicalConnectionManagedImpl.java:286)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.begin(LogicalConnectionManagedImpl.java:294)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.begin(JdbcResourceLocalTransactionCoordinatorImpl.java:232)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.begin(TransactionImpl.java:83)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:176)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:420)
+	... 23 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30008ms (total=0, active=0, idle=0, waiting=0)
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:686)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:179)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:144)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:127)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:46)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:126)
+	... 30 common frames omitted
+Caused by: java.sql.SQLRecoverableException: Erreur d'E/S: The Network Adapter could not establish the connection (CONNECTION_ID=n+JLrtoYQbSQW9kq909Fkw==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:902)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:707)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1094)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:89)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:732)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:648)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 common frames omitted
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection (CONNECTION_ID=n+JLrtoYQbSQW9kq909Fkw==)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:715)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:584)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:964)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:350)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:2627)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:666)
+	... 14 common frames omitted
+Caused by: java.io.IOException: Network is unreachable: connect, socket connect lapse 8 ms. 37.187.250.163 1521  30000 (1/1) true
+	at oracle.net.nt.TcpNTAdapter.establishSocket(TcpNTAdapter.java:425)
+	at oracle.net.nt.TcpNTAdapter.doLocalDNSLookupConnect(TcpNTAdapter.java:307)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:269)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:230)
+	at oracle.net.nt.ConnStrategy.executeConnOption(ConnStrategy.java:1014)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:673)
+	... 19 common frames omitted
+Caused by: java.net.SocketException: Network is unreachable: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:591)
+	at java.base/sun.nio.ch.Net.connect(Net.java:598)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285)
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:183)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:157)
+	at oracle.net.nt.TcpNTAdapter.establishSocket(TcpNTAdapter.java:384)
+	... 24 common frames omitted
+2026-06-04 11:59:29.136 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6bf3f91e (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:59:34.149 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@55880e22 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:59:39.165 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4c94ed1d (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:59:44.171 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4d3be04b (Erreur d'E/S: Invalid Operation, NOT Connected). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:59:49.175 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3e477fcc (Erreur d'E/S: Invalid Operation, NOT Connected). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:59:49.515 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1866c1d1 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:59:49.516 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@56522180 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:59:49.516 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@36254a4b (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:59:49.853 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1caf0799 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 11:59:54.133 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08006
+2026-06-04 11:59:54.134 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30016ms (total=0, active=0, idle=0, waiting=0)
+2026-06-04 11:59:54.167 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 17002, SQLState: 08006
+2026-06-04 11:59:54.167 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Erreur d'E/S: The Network Adapter could not establish the connection (CONNECTION_ID=YsgloCAaRcSWT9Ebg7th0g==)
+2026-06-04 11:59:54.168 [scheduling-1] ERROR o.s.s.support.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:466)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:604)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:373)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at com.banque.msoc.kafka.OcOutboxPublisher$$SpringCGLIB$$0.publishPendingEvents(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection [HikariPool-1 - Connection is not available, request timed out after 30016ms (total=0, active=0, idle=0, waiting=0)] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:51)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:129)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:156)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getConnectionForTransactionManagement(LogicalConnectionManagedImpl.java:286)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.begin(LogicalConnectionManagedImpl.java:294)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.begin(JdbcResourceLocalTransactionCoordinatorImpl.java:232)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.begin(TransactionImpl.java:83)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:176)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:420)
+	... 23 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30016ms (total=0, active=0, idle=0, waiting=0)
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:686)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:179)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:144)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:127)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:46)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:126)
+	... 30 common frames omitted
+Caused by: java.sql.SQLRecoverableException: Erreur d'E/S: The Network Adapter could not establish the connection (CONNECTION_ID=YsgloCAaRcSWT9Ebg7th0g==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:902)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:707)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1094)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:89)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:732)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:648)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 common frames omitted
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection (CONNECTION_ID=YsgloCAaRcSWT9Ebg7th0g==)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:715)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:584)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:964)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:350)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:2627)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:666)
+	... 14 common frames omitted
+Caused by: java.io.IOException: Network is unreachable: connect, socket connect lapse 1 ms. 37.187.250.163 1521  30000 (1/1) true
+	at oracle.net.nt.TcpNTAdapter.establishSocket(TcpNTAdapter.java:425)
+	at oracle.net.nt.TcpNTAdapter.doLocalDNSLookupConnect(TcpNTAdapter.java:307)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:269)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:230)
+	at oracle.net.nt.ConnStrategy.executeConnOption(ConnStrategy.java:1014)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:673)
+	... 19 common frames omitted
+Caused by: java.net.SocketException: Network is unreachable: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:591)
+	at java.base/sun.nio.ch.Net.connect(Net.java:598)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285)
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:183)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:157)
+	at oracle.net.nt.TcpNTAdapter.establishSocket(TcpNTAdapter.java:384)
+	... 24 common frames omitted
+2026-06-04 12:00:29.307 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08006
+2026-06-04 12:00:29.307 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30015ms (total=0, active=0, idle=0, waiting=0)
+2026-06-04 12:00:29.307 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 17002, SQLState: 08006
+2026-06-04 12:00:29.307 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Erreur d'E/S: The Network Adapter could not establish the connection (CONNECTION_ID=wDB6eDUiSdit5DXRhqJ8Yg==)
+2026-06-04 12:00:29.308 [scheduling-1] ERROR o.s.s.support.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:466)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:604)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:373)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at com.banque.msoc.kafka.OcOutboxPublisher$$SpringCGLIB$$0.publishPendingEvents(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection [HikariPool-1 - Connection is not available, request timed out after 30015ms (total=0, active=0, idle=0, waiting=0)] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:51)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:129)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:156)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getConnectionForTransactionManagement(LogicalConnectionManagedImpl.java:286)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.begin(LogicalConnectionManagedImpl.java:294)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.begin(JdbcResourceLocalTransactionCoordinatorImpl.java:232)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.begin(TransactionImpl.java:83)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:176)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:420)
+	... 23 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30015ms (total=0, active=0, idle=0, waiting=0)
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:686)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:179)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:144)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:127)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:46)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:126)
+	... 30 common frames omitted
+Caused by: java.sql.SQLRecoverableException: Erreur d'E/S: The Network Adapter could not establish the connection (CONNECTION_ID=wDB6eDUiSdit5DXRhqJ8Yg==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:902)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:707)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1094)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:89)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:732)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:648)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 common frames omitted
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection (CONNECTION_ID=wDB6eDUiSdit5DXRhqJ8Yg==)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:715)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:584)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:964)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:350)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:2627)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:666)
+	... 14 common frames omitted
+Caused by: java.io.IOException: Network is unreachable: connect, socket connect lapse 2 ms. 37.187.250.163 1521  30000 (1/1) true
+	at oracle.net.nt.TcpNTAdapter.establishSocket(TcpNTAdapter.java:425)
+	at oracle.net.nt.TcpNTAdapter.doLocalDNSLookupConnect(TcpNTAdapter.java:307)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:269)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:230)
+	at oracle.net.nt.ConnStrategy.executeConnOption(ConnStrategy.java:1014)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:673)
+	... 19 common frames omitted
+Caused by: java.net.SocketException: Network is unreachable: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:591)
+	at java.base/sun.nio.ch.Net.connect(Net.java:598)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285)
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:183)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:157)
+	at oracle.net.nt.TcpNTAdapter.establishSocket(TcpNTAdapter.java:384)
+	... 24 common frames omitted
+2026-06-04 12:01:04.342 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08006
+2026-06-04 12:01:04.342 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30019ms (total=0, active=0, idle=0, waiting=0)
+2026-06-04 12:01:04.344 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 17002, SQLState: 08006
+2026-06-04 12:01:04.344 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Erreur d'E/S: The Network Adapter could not establish the connection (CONNECTION_ID=olngtLxoRjSVqcyJkS1hcw==)
+2026-06-04 12:01:04.344 [scheduling-1] ERROR o.s.s.support.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:466)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:604)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:373)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at com.banque.msoc.kafka.OcOutboxPublisher$$SpringCGLIB$$0.publishPendingEvents(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection [HikariPool-1 - Connection is not available, request timed out after 30019ms (total=0, active=0, idle=0, waiting=0)] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:51)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:129)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:156)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getConnectionForTransactionManagement(LogicalConnectionManagedImpl.java:286)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.begin(LogicalConnectionManagedImpl.java:294)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.begin(JdbcResourceLocalTransactionCoordinatorImpl.java:232)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.begin(TransactionImpl.java:83)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:176)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:420)
+	... 23 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30019ms (total=0, active=0, idle=0, waiting=0)
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:686)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:179)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:144)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:127)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:46)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:126)
+	... 30 common frames omitted
+Caused by: java.sql.SQLRecoverableException: Erreur d'E/S: The Network Adapter could not establish the connection (CONNECTION_ID=olngtLxoRjSVqcyJkS1hcw==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:902)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:707)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1094)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:89)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:732)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:648)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 common frames omitted
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection (CONNECTION_ID=olngtLxoRjSVqcyJkS1hcw==)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:715)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:584)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:964)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:350)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:2627)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:666)
+	... 14 common frames omitted
+Caused by: java.io.IOException: Network is unreachable: connect, socket connect lapse 1 ms. 37.187.250.163 1521  30000 (1/1) true
+	at oracle.net.nt.TcpNTAdapter.establishSocket(TcpNTAdapter.java:425)
+	at oracle.net.nt.TcpNTAdapter.doLocalDNSLookupConnect(TcpNTAdapter.java:307)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:269)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:230)
+	at oracle.net.nt.ConnStrategy.executeConnOption(ConnStrategy.java:1014)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:673)
+	... 19 common frames omitted
+Caused by: java.net.SocketException: Network is unreachable: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:591)
+	at java.base/sun.nio.ch.Net.connect(Net.java:598)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285)
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:183)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:157)
+	at oracle.net.nt.TcpNTAdapter.establishSocket(TcpNTAdapter.java:384)
+	... 24 common frames omitted
+2026-06-04 12:01:26.583 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3681d3ed (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:01:26.584 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@535d989 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:01:26.584 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2e156c4a (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:01:26.652 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@7117ccdb (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:01:26.653 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@523357ba (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:01:26.654 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6a43f260 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:01:26.654 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@7daa36ba (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:01:26.654 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@41237b1e (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:01:26.655 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3961c40f (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:01:26.655 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6538f566 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:07:35.163 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@454795e9 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:07:35.164 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4ca5b28e (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:07:35.164 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3401edc0 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:07:35.209 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5858f5b (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:07:35.214 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2f05248c (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:07:35.214 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@49cd5c76 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:07:35.215 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5603a654 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:07:35.215 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4a699b6b (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:07:35.215 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@778d437b (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:07:35.216 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3ab045c3 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:15:46.251 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1e0d045a (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:15:46.253 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6e251645 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:15:46.287 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3f1ff12e (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:15:46.288 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6bb03b1 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:15:46.307 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3b512a90 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:15:46.307 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@70c063ca (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:15:46.308 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@209bbf (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:15:46.308 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1f807983 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:15:46.308 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@10737d73 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:15:46.308 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@c415303 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:21:52.190 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1339ebe1 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:21:52.198 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@631cd034 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:21:52.204 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@322b1e95 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:21:52.221 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3a8e80f6 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:21:52.222 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3665c007 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:21:52.222 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@74ea46f2 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:21:52.237 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@350bd752 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:21:52.274 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@464b4840 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:21:52.290 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@328074e3 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:21:52.291 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4c3cbd93 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:29:01.063 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5f1764ad (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:29:01.090 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2f7e35d8 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:29:01.104 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@7e0591d9 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:29:01.155 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2b386fec (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:29:01.229 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@7a4b0b65 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:29:01.298 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5536b2f7 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:29:01.298 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@494f076b (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:29:01.298 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5b080324 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:29:01.690 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6878a63d (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:29:01.691 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@530017d (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:33:05.341 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4eaeb29c (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:33:05.342 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3ed6539c (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:33:05.342 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6fbc47e8 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:33:05.342 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5f4e5ad2 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:33:05.342 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6bf2dce5 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:33:05.343 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@509501f2 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:33:05.344 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@292356d1 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:33:05.344 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2e7c3cb7 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:33:05.344 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@14f2a2a1 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:33:05.344 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@7cf558fa (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:35:08.566 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@36c9417f (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:35:08.566 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@67ab5a10 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:35:08.566 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2671d465 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:35:08.567 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@63e5c112 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:35:08.567 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6cd0f76c (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:35:08.567 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@644e330f (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:35:08.567 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1dfdbd13 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:35:08.567 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@555e1488 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:35:08.568 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@39a3447d (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:42:22.002 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@59759a2b (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:42:22.003 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4b48d6eb (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:42:22.013 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4815c14e (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:42:22.016 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@14ea6f62 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:42:22.016 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1b27c73 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:42:22.017 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1fccc5c2 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:42:22.043 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@348eb9e6 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:42:22.054 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@448043df (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:42:22.095 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4bc6c218 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 12:42:22.175 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6bf8d0e0 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 13:05:20.035 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@739ef308 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 13:05:20.036 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@35b8f7e (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 13:05:20.038 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@528c067c (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 13:05:20.038 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@433582d1 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 13:05:20.040 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@56c23849 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 13:05:20.040 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@737c3613 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 13:05:20.040 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2b815d3a (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 13:05:20.056 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@259192ac (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 13:05:20.121 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5947464b (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 13:05:20.131 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@385a77cd (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 14:49:41.322 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h54m54s439ms466µs701ns).
+2026-06-04 14:49:51.012 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions revoked: [station.oc.inbound-0]
+2026-06-04 14:49:51.094 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: Consumer stopped
+2026-06-04 14:49:51.343 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04 14:49:51.348 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-04 14:49:51.753 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-04 14:49:55.848 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-06-04 14:49:55.900 [main] INFO  com.banque.msoc.MsOcApplication - Starting MsOcApplication using Java 17.0.18 with PID 26020 (C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc)
+2026-06-04 14:49:55.900 [main] DEBUG com.banque.msoc.MsOcApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-06-04 14:49:55.900 [main] INFO  com.banque.msoc.MsOcApplication - The following 1 profile is active: "dev"
+2026-06-04 14:49:56.996 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-04 14:49:57.070 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 7 JPA repository interfaces.
+2026-06-04 14:49:57.946 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2026-06-04 14:49:57.961 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2026-06-04 14:49:57.963 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-04 14:49:57.965 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-06-04 14:49:58.042 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-04 14:49:58.042 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2087 ms
+2026-06-04 14:49:58.551 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-04 14:49:58.652 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-06-04 14:49:58.697 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-06-04 14:49:59.014 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-04 14:49:59.039 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-04 14:49:59.839 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2c0dca15
+2026-06-04 14:49:59.841 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-04 14:50:01.727 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-04 14:50:06.585 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04 14:50:08.309 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2026-06-04 14:50:08.326 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2026-06-04 14:50:08.533 [main] INFO  com.banque.msoc.MsOcApplication - Started MsOcApplication in 13.158 seconds (process running for 13.725)
+2026-06-04 14:50:12.559 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions assigned: [station.oc.inbound-0]
+2026-06-04 14:56:51.189 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2c0dca15 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 14:56:51.354 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@da150fd (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 14:56:51.355 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@7abbf412 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 14:56:51.394 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@98ddf69 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 14:56:51.396 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4fec0962 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 14:56:51.541 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@65abf469 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 14:56:51.543 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@eab7184 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 14:56:51.543 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@64982b70 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 14:56:51.543 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6324ab31 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 14:56:51.543 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2538ca3c (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:23:16.231 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1ddde479 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:23:21.235 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6df63546 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:23:26.262 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3ccf110d (Erreur d'E/S: Invalid Operation, NOT Connected). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:23:31.308 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@28da0824 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:23:36.345 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3881c973 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:23:36.657 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@59e06916 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:23:36.658 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4747ace2 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:23:36.670 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4f764acf (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:23:36.815 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@32d7bdd7 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:23:41.508 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08006
+2026-06-04 15:23:41.508 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30053ms (total=0, active=0, idle=0, waiting=0)
+2026-06-04 15:23:41.508 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 17002, SQLState: 08006
+2026-06-04 15:23:41.508 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Erreur d'E/S: The Network Adapter could not establish the connection (CONNECTION_ID=MGTsoLHqTY+AyB/Z8PYSyA==)
+2026-06-04 15:23:41.587 [scheduling-1] ERROR o.s.s.support.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:466)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:604)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:373)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at com.banque.msoc.kafka.OcOutboxPublisher$$SpringCGLIB$$0.publishPendingEvents(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection [HikariPool-1 - Connection is not available, request timed out after 30053ms (total=0, active=0, idle=0, waiting=0)] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:51)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:129)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:156)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getConnectionForTransactionManagement(LogicalConnectionManagedImpl.java:286)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.begin(LogicalConnectionManagedImpl.java:294)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.begin(JdbcResourceLocalTransactionCoordinatorImpl.java:232)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.begin(TransactionImpl.java:83)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:176)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:420)
+	... 23 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30053ms (total=0, active=0, idle=0, waiting=0)
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:686)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:179)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:144)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:127)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:46)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:126)
+	... 30 common frames omitted
+Caused by: java.sql.SQLRecoverableException: Erreur d'E/S: The Network Adapter could not establish the connection (CONNECTION_ID=MGTsoLHqTY+AyB/Z8PYSyA==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:902)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:707)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1094)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:89)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:732)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:648)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 common frames omitted
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection (CONNECTION_ID=MGTsoLHqTY+AyB/Z8PYSyA==)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:715)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:584)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:964)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:350)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:2627)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:666)
+	... 14 common frames omitted
+Caused by: java.io.IOException: Network is unreachable: connect, socket connect lapse 2 ms. 37.187.250.163 1521  30000 (1/1) true
+	at oracle.net.nt.TcpNTAdapter.establishSocket(TcpNTAdapter.java:425)
+	at oracle.net.nt.TcpNTAdapter.doLocalDNSLookupConnect(TcpNTAdapter.java:307)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:269)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:230)
+	at oracle.net.nt.ConnStrategy.executeConnOption(ConnStrategy.java:1014)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:673)
+	... 19 common frames omitted
+Caused by: java.net.SocketException: Network is unreachable: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:591)
+	at java.base/sun.nio.ch.Net.connect(Net.java:598)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285)
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:183)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:157)
+	at oracle.net.nt.TcpNTAdapter.establishSocket(TcpNTAdapter.java:384)
+	... 24 common frames omitted
+2026-06-04 15:33:39.199 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6f6831bd (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:33:39.200 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@d9cf64c (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:33:39.230 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@24359c2c (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:33:39.297 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6022d76b (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:33:39.316 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@75e87491 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:33:39.322 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3a2ff22b (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:33:39.398 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@532199a4 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:33:39.430 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5dbbfb4b (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:33:39.432 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3ec4fc18 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:33:39.458 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@231ee7a9 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:36:48.252 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@688e595c (Erreur d'E/S: Invalid Operation, NOT Connected). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:36:53.264 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@18d0be93 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:36:58.285 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@499cac28 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:37:03.300 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2442cccd (Erreur d'E/S: Invalid Operation, NOT Connected). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:37:08.318 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4dd21105 (Erreur d'E/S: Invalid Operation, NOT Connected). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:37:13.326 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1812cdb0 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:37:13.331 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08003
+2026-06-04 15:37:13.331 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30086ms (total=4, active=0, idle=4, waiting=0)
+2026-06-04 15:37:13.331 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 17008, SQLState: 08003
+2026-06-04 15:37:13.332 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Connexion interrompue
+2026-06-04 15:37:13.332 [scheduling-1] ERROR o.s.s.support.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:466)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:604)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:373)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at com.banque.msoc.kafka.OcOutboxPublisher$$SpringCGLIB$$0.publishPendingEvents(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection [HikariPool-1 - Connection is not available, request timed out after 30086ms (total=4, active=0, idle=4, waiting=0)] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:51)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:129)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:156)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getConnectionForTransactionManagement(LogicalConnectionManagedImpl.java:286)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.begin(LogicalConnectionManagedImpl.java:294)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.begin(JdbcResourceLocalTransactionCoordinatorImpl.java:232)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.begin(TransactionImpl.java:83)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:176)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:420)
+	... 23 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30086ms (total=4, active=0, idle=4, waiting=0)
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:686)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:179)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:144)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:127)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:46)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:126)
+	... 30 common frames omitted
+Caused by: java.sql.SQLRecoverableException: Connexion interrompue
+	at oracle.jdbc.driver.T4CConnection.doSetNetworkTimeout(T4CConnection.java:10144)
+	at oracle.jdbc.driver.PhysicalConnection.setNetworkTimeout(PhysicalConnection.java:10245)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:562)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionDead(PoolBase.java:169)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:168)
+	... 35 common frames omitted
+2026-06-04 15:37:18.403 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3c88c14a (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:37:18.405 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3ab1b2b7 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:37:18.406 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5c2849b1 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:37:18.454 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5bfd01c0 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:37:48.407 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08006
+2026-06-04 15:37:48.409 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30004ms (total=0, active=0, idle=0, waiting=0)
+2026-06-04 15:37:48.417 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 17002, SQLState: 08006
+2026-06-04 15:37:48.417 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Erreur d'E/S: The Network Adapter could not establish the connection (CONNECTION_ID=OipcFy4vSOyI/DqZ1L5X8w==)
+2026-06-04 15:37:48.418 [scheduling-1] ERROR o.s.s.support.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:466)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:604)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:373)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at com.banque.msoc.kafka.OcOutboxPublisher$$SpringCGLIB$$0.publishPendingEvents(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection [HikariPool-1 - Connection is not available, request timed out after 30004ms (total=0, active=0, idle=0, waiting=0)] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:51)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:129)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:156)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getConnectionForTransactionManagement(LogicalConnectionManagedImpl.java:286)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.begin(LogicalConnectionManagedImpl.java:294)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.begin(JdbcResourceLocalTransactionCoordinatorImpl.java:232)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.begin(TransactionImpl.java:83)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:176)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:420)
+	... 23 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30004ms (total=0, active=0, idle=0, waiting=0)
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:686)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:179)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:144)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:127)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:46)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:126)
+	... 30 common frames omitted
+Caused by: java.sql.SQLRecoverableException: Erreur d'E/S: The Network Adapter could not establish the connection (CONNECTION_ID=OipcFy4vSOyI/DqZ1L5X8w==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:902)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:707)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1094)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:89)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:732)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:648)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 common frames omitted
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection (CONNECTION_ID=OipcFy4vSOyI/DqZ1L5X8w==)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:715)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:584)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:964)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:350)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:2627)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:666)
+	... 14 common frames omitted
+Caused by: java.io.IOException: Network is unreachable: connect, socket connect lapse 0 ms. 37.187.250.163 1521  30000 (1/1) true
+	at oracle.net.nt.TcpNTAdapter.establishSocket(TcpNTAdapter.java:425)
+	at oracle.net.nt.TcpNTAdapter.doLocalDNSLookupConnect(TcpNTAdapter.java:307)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:269)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:230)
+	at oracle.net.nt.ConnStrategy.executeConnOption(ConnStrategy.java:1014)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:673)
+	... 19 common frames omitted
+Caused by: java.net.SocketException: Network is unreachable: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:591)
+	at java.base/sun.nio.ch.Net.connect(Net.java:598)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285)
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:183)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:157)
+	at oracle.net.nt.TcpNTAdapter.establishSocket(TcpNTAdapter.java:384)
+	... 24 common frames omitted
+2026-06-04 15:39:29.486 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5a75c656 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:39:29.487 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3b540232 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:39:29.620 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4944029c (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:39:29.622 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@526c8d04 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:39:29.816 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3f86dcd6 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:39:30.136 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@52410340 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:39:30.516 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@76191abf (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:39:30.521 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@55a18332 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:39:30.677 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1413cc3d (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:44:38.746 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2dd1ea74 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:44:43.779 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5d4a8f57 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:44:48.831 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@cc31f00 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:44:53.856 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@28795bac (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:44:58.660 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@496f0315 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:44:58.660 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2491ee24 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:44:58.681 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@7256f93c (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:44:58.683 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3d81ccbb (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:44:58.683 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3ae68014 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:45:03.729 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08006
+2026-06-04 15:45:03.730 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30000ms (total=0, active=0, idle=0, waiting=0)
+2026-06-04 15:45:03.730 [scheduling-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 17002, SQLState: 08006
+2026-06-04 15:45:03.730 [scheduling-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Erreur d'E/S: The Network Adapter could not establish the connection (CONNECTION_ID=mMv/+SsEQT+MZPmpNPpGVw==)
+2026-06-04 15:45:03.730 [scheduling-1] ERROR o.s.s.support.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:466)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:604)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:373)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at com.banque.msoc.kafka.OcOutboxPublisher$$SpringCGLIB$$0.publishPendingEvents(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection [HikariPool-1 - Connection is not available, request timed out after 30000ms (total=0, active=0, idle=0, waiting=0)] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:51)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:129)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:156)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getConnectionForTransactionManagement(LogicalConnectionManagedImpl.java:286)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.begin(LogicalConnectionManagedImpl.java:294)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.begin(JdbcResourceLocalTransactionCoordinatorImpl.java:232)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.begin(TransactionImpl.java:83)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:176)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:420)
+	... 23 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30000ms (total=0, active=0, idle=0, waiting=0)
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:686)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:179)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:144)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:127)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:46)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:126)
+	... 30 common frames omitted
+Caused by: java.sql.SQLRecoverableException: Erreur d'E/S: The Network Adapter could not establish the connection (CONNECTION_ID=mMv/+SsEQT+MZPmpNPpGVw==)
+	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:902)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:707)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1094)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:89)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:732)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:648)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 common frames omitted
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection (CONNECTION_ID=mMv/+SsEQT+MZPmpNPpGVw==)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:715)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:584)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:964)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:350)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:2627)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:666)
+	... 14 common frames omitted
+Caused by: java.io.IOException: Network is unreachable: connect, socket connect lapse 0 ms. 37.187.250.163 1521  30000 (1/1) true
+	at oracle.net.nt.TcpNTAdapter.establishSocket(TcpNTAdapter.java:425)
+	at oracle.net.nt.TcpNTAdapter.doLocalDNSLookupConnect(TcpNTAdapter.java:307)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:269)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:230)
+	at oracle.net.nt.ConnStrategy.executeConnOption(ConnStrategy.java:1014)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:673)
+	... 19 common frames omitted
+Caused by: java.net.SocketException: Network is unreachable: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:591)
+	at java.base/sun.nio.ch.Net.connect(Net.java:598)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:853)
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285)
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:183)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:157)
+	at oracle.net.nt.TcpNTAdapter.establishSocket(TcpNTAdapter.java:384)
+	... 24 common frames omitted
+2026-06-04 15:46:17.889 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions revoked: [station.oc.inbound-0]
+2026-06-04 15:46:18.230 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: Consumer stopped
+2026-06-04 15:46:18.896 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04 15:46:18.901 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-04 15:46:19.314 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-04 15:46:24.379 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-06-04 15:46:24.418 [main] INFO  com.banque.msoc.MsOcApplication - Starting MsOcApplication using Java 17.0.18 with PID 33532 (C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc)
+2026-06-04 15:46:24.418 [main] DEBUG com.banque.msoc.MsOcApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-06-04 15:46:24.418 [main] INFO  com.banque.msoc.MsOcApplication - The following 1 profile is active: "dev"
+2026-06-04 15:46:25.356 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-04 15:46:25.422 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 7 JPA repository interfaces.
+2026-06-04 15:46:26.305 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2026-06-04 15:46:26.315 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2026-06-04 15:46:26.319 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-04 15:46:26.319 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-06-04 15:46:26.391 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-04 15:46:26.391 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1923 ms
+2026-06-04 15:46:26.845 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-04 15:46:27.187 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-06-04 15:46:27.288 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-06-04 15:46:28.568 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-04 15:46:28.696 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-04 15:46:30.346 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@126675fd
+2026-06-04 15:46:30.346 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-04 15:46:37.042 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-04 15:46:39.978 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04 15:46:51.584 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2026-06-04 15:46:51.672 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2026-06-04 15:46:52.888 [main] INFO  com.banque.msoc.MsOcApplication - Started MsOcApplication in 28.921 seconds (process running for 29.3)
+2026-06-04 15:46:59.456 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions assigned: [station.oc.inbound-0]
+2026-06-04 15:48:30.767 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-04 15:48:30.783 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-04 15:48:31.951 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1168 ms
+2026-06-04 15:52:19.916 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@12a2ca3 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:52:19.918 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@126675fd (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:52:19.918 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@21026907 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:52:19.919 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@59e21795 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:52:19.919 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@42e69abc (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:52:19.919 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@301693b8 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:52:19.919 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5632f529 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:52:19.921 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@ad597bf (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:52:19.921 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5ae01466 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 15:52:19.921 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4aaf2a9b (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:11:07.303 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions revoked: [station.oc.inbound-0]
+2026-06-04 16:11:07.726 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: Consumer stopped
+2026-06-04 16:11:08.096 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04 16:11:08.101 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-04 16:11:08.949 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-04 16:11:16.118 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-06-04 16:11:16.197 [main] INFO  com.banque.msoc.MsOcApplication - Starting MsOcApplication using Java 17.0.18 with PID 12892 (C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc)
+2026-06-04 16:11:16.197 [main] DEBUG com.banque.msoc.MsOcApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-06-04 16:11:16.201 [main] INFO  com.banque.msoc.MsOcApplication - The following 1 profile is active: "dev"
+2026-06-04 16:11:17.319 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-04 16:11:17.471 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 136 ms. Found 7 JPA repository interfaces.
+2026-06-04 16:11:18.710 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2026-06-04 16:11:18.719 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2026-06-04 16:11:18.722 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-04 16:11:18.724 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-06-04 16:11:18.826 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-04 16:11:18.830 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2556 ms
+2026-06-04 16:11:19.417 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-04 16:11:19.566 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-06-04 16:11:19.597 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-06-04 16:11:19.907 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-04 16:11:19.935 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-04 16:11:20.698 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@100807ca
+2026-06-04 16:11:20.702 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-04 16:11:22.112 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-04 16:11:24.215 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04 16:11:25.726 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2026-06-04 16:11:25.773 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2026-06-04 16:11:25.944 [main] INFO  com.banque.msoc.MsOcApplication - Started MsOcApplication in 10.378 seconds (process running for 10.816)
+2026-06-04 16:11:29.928 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions assigned: [station.oc.inbound-0]
+2026-06-04 16:11:32.974 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-04 16:11:32.979 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-04 16:11:32.982 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-06-04 16:11:58.235 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@576efc51 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:11:58.237 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@7a3ac1d (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:11:58.274 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6c2580b3 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:11:58.276 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@32d2351d (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:11:58.294 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@679a7c5a (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:11:58.319 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@7df0f3cc (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:11:58.321 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@13fc73b0 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:11:58.323 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1dc85b4 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:11:58.326 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5c444515 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:16:45.576 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions revoked: [station.oc.inbound-0]
+2026-06-04 16:16:45.683 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: Consumer stopped
+2026-06-04 16:16:45.955 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04 16:16:45.957 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-04 16:16:46.341 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-04 16:16:52.096 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-06-04 16:16:52.143 [main] INFO  com.banque.msoc.MsOcApplication - Starting MsOcApplication using Java 17.0.18 with PID 35240 (C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc)
+2026-06-04 16:16:52.143 [main] DEBUG com.banque.msoc.MsOcApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-06-04 16:16:52.143 [main] INFO  com.banque.msoc.MsOcApplication - The following 1 profile is active: "dev"
+2026-06-04 16:16:52.900 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-04 16:16:52.966 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 7 JPA repository interfaces.
+2026-06-04 16:16:53.890 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2026-06-04 16:16:53.906 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2026-06-04 16:16:53.913 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-04 16:16:53.913 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-06-04 16:16:54.034 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-04 16:16:54.034 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1836 ms
+2026-06-04 16:16:54.459 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-04 16:16:54.541 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-06-04 16:16:54.577 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-06-04 16:16:54.855 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-04 16:16:54.900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-04 16:16:55.599 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2520aa05
+2026-06-04 16:16:55.601 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-04 16:16:56.945 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-04 16:16:58.803 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04 16:17:00.472 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2026-06-04 16:17:00.493 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2026-06-04 16:17:00.641 [main] INFO  com.banque.msoc.MsOcApplication - Started MsOcApplication in 9.077 seconds (process running for 9.502)
+2026-06-04 16:17:04.276 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions assigned: [station.oc.inbound-0]
+2026-06-04 16:17:04.447 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-04 16:17:04.447 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-04 16:17:04.458 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2026-06-04 16:21:32.864 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions revoked: [station.oc.inbound-0]
+2026-06-04 16:21:32.894 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: Consumer stopped
+2026-06-04 16:21:33.095 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04 16:21:33.095 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-04 16:21:33.461 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-04 16:21:36.837 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-06-04 16:21:36.880 [main] INFO  com.banque.msoc.MsOcApplication - Starting MsOcApplication using Java 17.0.18 with PID 24384 (C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc)
+2026-06-04 16:21:36.880 [main] DEBUG com.banque.msoc.MsOcApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-06-04 16:21:36.880 [main] INFO  com.banque.msoc.MsOcApplication - The following 1 profile is active: "dev"
+2026-06-04 16:21:37.665 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-04 16:21:37.748 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 7 JPA repository interfaces.
+2026-06-04 16:21:38.507 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2026-06-04 16:21:38.520 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2026-06-04 16:21:38.528 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-04 16:21:38.528 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-06-04 16:21:38.622 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-04 16:21:38.622 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1696 ms
+2026-06-04 16:21:39.028 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-04 16:21:39.127 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-06-04 16:21:39.172 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-06-04 16:21:39.442 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-04 16:21:39.464 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-04 16:21:40.067 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1e606f64
+2026-06-04 16:21:40.073 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-04 16:21:41.276 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-04 16:21:42.990 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04 16:21:44.574 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2026-06-04 16:21:44.590 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2026-06-04 16:21:44.738 [main] INFO  com.banque.msoc.MsOcApplication - Started MsOcApplication in 8.291 seconds (process running for 8.606)
+2026-06-04 16:21:48.363 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions assigned: [station.oc.inbound-0]
+2026-06-04 16:21:50.025 [http-nio-8082-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-04 16:21:50.025 [http-nio-8082-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-04 16:21:50.027 [http-nio-8082-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-06-04 16:24:50.530 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@238d05f2 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:24:50.532 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1e606f64 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:24:50.532 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@18718e02 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:24:50.533 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@168a7f49 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:24:50.533 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@43644904 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:24:50.533 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3c0fdcca (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:24:50.534 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@278d7b34 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:24:50.534 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2c522720 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:24:50.535 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@426e6c6f (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:24:50.535 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4a782270 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:29:39.628 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions revoked: [station.oc.inbound-0]
+2026-06-04 16:29:39.889 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: Consumer stopped
+2026-06-04 16:29:40.127 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04 16:29:40.132 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-04 16:29:40.517 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-04 16:29:46.500 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-06-04 16:29:46.560 [main] INFO  com.banque.msoc.MsOcApplication - Starting MsOcApplication using Java 17.0.18 with PID 29048 (C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc)
+2026-06-04 16:29:46.562 [main] DEBUG com.banque.msoc.MsOcApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-06-04 16:29:46.562 [main] INFO  com.banque.msoc.MsOcApplication - The following 1 profile is active: "dev"
+2026-06-04 16:29:47.700 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-04 16:29:47.826 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 107 ms. Found 7 JPA repository interfaces.
+2026-06-04 16:29:49.069 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2026-06-04 16:29:49.100 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2026-06-04 16:29:49.112 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-04 16:29:49.113 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-06-04 16:29:49.305 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-04 16:29:49.307 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2683 ms
+2026-06-04 16:29:49.903 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-04 16:29:50.036 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-06-04 16:29:50.120 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-06-04 16:29:50.669 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-04 16:29:50.747 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-04 16:29:51.960 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2487e20
+2026-06-04 16:29:51.964 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-04 16:29:53.990 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-04 16:29:55.860 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04 16:29:58.397 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2026-06-04 16:29:58.426 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2026-06-04 16:29:58.623 [main] INFO  com.banque.msoc.MsOcApplication - Started MsOcApplication in 12.726 seconds (process running for 13.153)
+2026-06-04 16:30:02.856 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions assigned: [station.oc.inbound-0]
+2026-06-04 16:30:48.324 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-04 16:30:48.325 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-04 16:30:48.326 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-06-04 16:33:52.892 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2487e20 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:33:52.894 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@759759b1 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:33:52.894 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4a41a044 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:33:52.894 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@13816591 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:33:52.896 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@487ece94 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:33:52.896 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4aede777 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:33:52.896 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@44b7c57c (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:33:52.896 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@59ffa1a9 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:33:52.896 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1ef35d18 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:33:52.898 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@510a790e (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:36:30.194 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions revoked: [station.oc.inbound-0]
+2026-06-04 16:36:30.414 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: Consumer stopped
+2026-06-04 16:36:30.671 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04 16:36:30.673 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-04 16:36:31.057 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-04 16:36:36.163 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-06-04 16:36:36.221 [main] INFO  com.banque.msoc.MsOcApplication - Starting MsOcApplication using Java 17.0.18 with PID 24508 (C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc)
+2026-06-04 16:36:36.221 [main] DEBUG com.banque.msoc.MsOcApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-06-04 16:36:36.221 [main] INFO  com.banque.msoc.MsOcApplication - The following 1 profile is active: "dev"
+2026-06-04 16:36:37.403 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-04 16:36:37.518 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 98 ms. Found 7 JPA repository interfaces.
+2026-06-04 16:36:38.567 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2026-06-04 16:36:38.585 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2026-06-04 16:36:38.592 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-04 16:36:38.592 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-06-04 16:36:38.769 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-04 16:36:38.769 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2488 ms
+2026-06-04 16:36:39.239 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-04 16:36:39.362 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-06-04 16:36:39.425 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-06-04 16:36:39.832 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-04 16:36:39.867 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-04 16:36:40.599 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@c67395
+2026-06-04 16:36:40.603 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-04 16:36:42.065 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-04 16:36:44.102 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-04 16:36:46.567 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2026-06-04 16:36:46.583 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2026-06-04 16:36:46.735 [main] INFO  com.banque.msoc.MsOcApplication - Started MsOcApplication in 11.157 seconds (process running for 11.602)
+2026-06-04 16:36:50.527 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions assigned: [station.oc.inbound-0]
+2026-06-04 16:47:58.602 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@c67395 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:47:58.603 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5b2a3263 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:47:58.603 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@21f4c512 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:47:58.603 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@7de35117 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:47:58.603 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@19fad4be (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:47:58.603 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@552a454c (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:47:58.603 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2699b695 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:47:58.603 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6a808c2c (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:47:58.603 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@22f9a955 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-06-04 16:47:58.603 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@78c6c29e (Connexion interrompue). Possibly consider using a shorter maxLifetime value.

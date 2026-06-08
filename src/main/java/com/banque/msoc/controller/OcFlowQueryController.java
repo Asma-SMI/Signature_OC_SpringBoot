@@ -1,6 +1,7 @@
 package com.banque.msoc.controller;
 
 import com.banque.msoc.domain.enums.OcFlowStatus;
+import com.banque.msoc.dto.kafka.OcOutboundEventResponse;
 import com.banque.msoc.dto.rest.*;
 import com.banque.msoc.service.OcFlowQueryService;
 import lombok.RequiredArgsConstructor;
@@ -34,6 +35,10 @@ public class OcFlowQueryController {
         c.setDateTo(dateTo);
         return queryService.search(c, pageable);
     }
+    @GetMapping("/stats")
+    public OcStatsResponse getStats() {
+        return queryService.getStats();
+    }
 
     @GetMapping("/{businessKey}")
     public OcFlowResponse get(@PathVariable String businessKey) {
@@ -48,5 +53,10 @@ public class OcFlowQueryController {
     @GetMapping("/{businessKey}/payloads")
     public List<OcPayloadResponse> payloads(@PathVariable String businessKey) {
         return queryService.getPayloads(businessKey);
+    }
+
+    @GetMapping("/{businessKey}/outbound-events")
+    public List<OcOutboundEventResponse> getOutboundEvents(@PathVariable String businessKey) {
+        return queryService.getOutboundEvents(businessKey);
     }
 }

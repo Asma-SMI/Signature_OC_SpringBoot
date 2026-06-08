@@ -25,9 +25,9 @@ public class OcInboundPayloadDto {
     private String raisonSocialeImportateur;
     private String adresseImportateur;
 
-    private String codeTtnDeclaration;
-    private String nomSignataireDeclaration;
-    private LocalDate dateDeclaration;
+    private String codTtnDec;
+    private String nomSigDec;
+    private LocalDate datDec;
 
     private String codeBureauDouane;
     private String libelleBureauDouane;

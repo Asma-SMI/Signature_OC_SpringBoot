@@ -1,12 +1,16 @@
 package com.banque.msoc.service;
 
 import com.banque.msoc.domain.entity.OcFlow;
+import com.banque.msoc.domain.enums.EventStatus;
+import com.banque.msoc.domain.enums.OcFlowStatus;
+import com.banque.msoc.dto.kafka.OcOutboundEventResponse;
 import com.banque.msoc.dto.rest.*;
 import com.banque.msoc.exception.FlowNotFoundException;
 import com.banque.msoc.mapper.OcFlowMapper;
 import com.banque.msoc.repository.OcDecisionAuditRepository;
 import com.banque.msoc.repository.OcFlowPayloadRepository;
 import com.banque.msoc.repository.OcFlowRepository;
+import com.banque.msoc.repository.OcOutboundEventRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -23,6 +27,7 @@ public class OcFlowQueryService {
     private final OcFlowRepository flowRepository;
     private final OcDecisionAuditRepository auditRepository;
     private final OcFlowPayloadRepository payloadRepository;
+    private final OcOutboundEventRepository outboundEventRepository;
     private final OcFlowMapper mapper;
 
     @Transactional(readOnly = true)
@@ -58,5 +63,21 @@ public class OcFlowQueryService {
             if (c.getDateTo() != null) predicate = cb.and(predicate, cb.lessThan(root.get("receivedAt"), c.getDateTo().plusDays(1).atStartOfDay()));
             return predicate;
         };
+    }
+
+    @Transactional(readOnly = true)
+    public List<OcOutboundEventResponse> getOutboundEvents(String businessKey) {
+        return outboundEventRepository.findByFlowBusinessKeyOrderByCreatedAtAsc(businessKey)
+                .stream()
+                .map(mapper::toOutboundEventResponse)
+                .toList();
+    }
+
+    @Transactional(readOnly = true)
+    public OcStatsResponse getStats() {
+        return OcStatsResponse.builder()
+                .totalFlux(flowRepository.count())
+                .fluxErreurOutbound(outboundEventRepository.countByStatus(EventStatus.FAILED))
+                .build();
     }
 }
