@@ -30,6 +30,10 @@ public class SecurityConfig {
                 .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/api/oc/dev/**").permitAll()
+                        .requestMatchers("/error").permitAll()
+                        .requestMatchers("/api/oc/notifications/stream").permitAll()
+                        .requestMatchers("/api/oc/notifications/**").permitAll()
+
 
                         .requestMatchers("/api/oc/flows/*/decision").permitAll()
                         //.hasAnyAuthority("OC_DOWNSTREAM")

@@ -4,10 +4,12 @@ import com.banque.msoc.domain.entity.*;
 import com.banque.msoc.domain.enums.*;
 import com.banque.msoc.dto.kafka.OcInboundKafkaMessage;
 import com.banque.msoc.dto.kafka.OcInboundPayloadDto;
+import com.banque.msoc.dto.notification.OcNewFlowReceivedEvent;
 import com.banque.msoc.exception.DuplicateMessageException;
 import com.banque.msoc.exception.InvalidDecisionException;
 import com.banque.msoc.repository.*;
 import lombok.RequiredArgsConstructor;
+import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -20,6 +22,7 @@ public class OcInboundService {
     private final OcFlowRepository flowRepository;
     private final OcOperationRepository operationRepository;
     private final OcPayloadService payloadService;
+    private final ApplicationEventPublisher eventPublisher;
 
     @Transactional
     public void processInboundMessage(OcInboundKafkaMessage message, String topic, Integer partition, Long offset) {
@@ -74,6 +77,17 @@ public class OcInboundService {
         inbound.setStatus(EventStatus.PROCESSED);
         inbound.setProcessedAt(LocalDateTime.now());
         inboundEventRepository.save(inbound);
+
+        eventPublisher.publishEvent(new OcNewFlowReceivedEvent(
+                flow.getBusinessKey(),
+                p.getNumeroDossier(),
+                p.getNumeroDemande(),
+                flow.getStatus() != null ? flow.getStatus().name() : null,
+                flow.getSignatureStatus() != null ? flow.getSignatureStatus().name() : null,
+                flow.getReceivedAt() != null ? flow.getReceivedAt() : LocalDateTime.now(),
+                message.getMessageId(),
+                message.getCorrelationId()
+        ));
     }
 
     private OcFlowDetail mapDetail(OcInboundPayloadDto p) {

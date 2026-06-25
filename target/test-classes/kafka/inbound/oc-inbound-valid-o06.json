@@ -1,0 +1,26 @@
+{
+  "messageId": "MSG-OC-0001",
+  "correlationId": "CORR-OC-0001",
+  "source": "EXCHANGE_STATION",
+  "flowType": "OBLIG_CAUTIONNEE",
+  "signatureStatus": "VALID",
+  "receivedAt": "2026-05-15T10:00:00",
+  "payload": {
+    "typeMessage": "CUSDEC",
+    "typeDocument": "O06",
+    "numeroDemande": "D15369OC1",
+    "numeroDossier": "88276218",
+    "numeroMessage": "LU1327028203",
+    "emetteur": "TRANSYMSS3",
+    "destinataire": "STBE",
+    "codeBanqueImportateur": "10",
+    "rib": "12345678901234567890",
+    "montantPrincipal": 10000.000,
+    "montantInteret": 500.000,
+    "montantTotal": 10500.000,
+    "dateEcheance": "2026-12-31"
+  },
+  "technicalMetadata": {
+    "originalFileName": "O06_2026.xml"
+  }
+}
