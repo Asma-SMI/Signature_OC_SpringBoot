@@ -8,6 +8,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
@@ -58,5 +59,20 @@ public class OcFlowQueryController {
     @GetMapping("/{businessKey}/outbound-events")
     public List<OcOutboundEventResponse> getOutboundEvents(@PathVariable String businessKey) {
         return queryService.getOutboundEvents(businessKey);
+    }
+
+    @GetMapping("/activity/last-7-days")
+    public ResponseEntity<List<OcFlowActivityResponse>> getActivityLast7Days() {
+        return ResponseEntity.ok(queryService.getActivityLast7Days());
+    }
+
+    @GetMapping("/outbound-events/dashboard")
+    public ResponseEntity<OcOutboundDashboardResponse> getOutboundDashboard() {
+        return ResponseEntity.ok(queryService.getOutboundDashboard());
+    }
+
+    @GetMapping("/timeline/recent")
+    public ResponseEntity<List<OcTimelineEventResponse>> getRecentTimeline() {
+        return ResponseEntity.ok(queryService.getRecentTimeline());
     }
 }

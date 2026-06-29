@@ -8,4 +8,9 @@ import lombok.Data;
 public class OcStatsResponse {
     private long totalFlux;
     private long fluxErreurOutbound;
+    private long fluxEnAttente;
+
+    private long fluxAcceptes;
+
+    private long fluxRejetes;
 }

@@ -30,14 +30,12 @@ public class OcNotificationService {
             try {
                 emitter.complete();
             } catch (Exception ignored) {
-                // Ignore volontairement : le client peut déjà être fermé.
             }
         });
 
         emitter.onError(error -> {
             log.debug("SSE error/client disconnected: {}", error.getMessage());
             emitters.remove(emitter);
-            // Ne pas appeler emitter.complete() ici.
         });
 
         emitters.add(emitter);
@@ -49,7 +47,6 @@ public class OcNotificationService {
         } catch (Exception e) {
             log.debug("Impossible d'envoyer CONNECTED, client déjà déconnecté: {}", e.getMessage());
             emitters.remove(emitter);
-            // Ne pas appeler complete ici non plus.
         }
 
         return emitter;
@@ -66,10 +63,6 @@ public class OcNotificationService {
                 log.debug("Client SSE déconnecté, suppression de l'emitter: {}", e.getMessage());
                 emitters.remove(emitter);
 
-                // Très important :
-                // Ne PAS faire emitter.complete() ici.
-                // Sinon Tomcat peut déclencher :
-                // A non-container thread attempted to use the AsyncContext after an error...
             }
         }
     }

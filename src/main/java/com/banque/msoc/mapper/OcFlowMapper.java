@@ -38,8 +38,14 @@ public class OcFlowMapper {
                 .signatureStatus(flow.getSignatureStatus())
                 .status(flow.getStatus())
                 .correlationId(flow.getCorrelationId())
+                .createdAt(flow.getCreatedAt())
                 .receivedAt(flow.getReceivedAt())
                 .finalizedAt(flow.getFinalizedAt())
+                .montantTotal(
+                        flow.getDetail() != null
+                                ? flow.getDetail().getMontTot()
+                                : null
+                )
                 .summaryDetail(toSummaryDetailResponse(flow.getDetail()))
                 .detail(null)
                 .build();
@@ -62,6 +68,7 @@ public class OcFlowMapper {
                 .finalizedAt(flow.getFinalizedAt())
                 .detail(flow.getDetail() == null ? null : toDetailResponse(flow.getDetail()))
                 .summaryDetail(null)
+                .createdAt(flow.getCreatedAt())
                 .build();
     }
 
@@ -164,6 +171,20 @@ public class OcFlowMapper {
         if (event == null) {
             return null;
         }
+        String numDossier = null;
+
+        if (event.getFlow() != null) {
+            if (event.getFlow().getDetail() != null
+                    && event.getFlow().getDetail().getNumDossTtn() != null) {
+                numDossier = event.getFlow().getDetail().getNumDossTtn();
+            } else {
+                numDossier = event.getFlow().getBusinessKey();
+            }
+        }
+
+        String reference = numDossier != null
+                ? "FLOW_SORTANT_" + numDossier
+                : "FLOW_SORTANT_" + event.getId();
 
         return OcOutboundEventResponse.builder()
                 .messageId(event.getMessageId())
@@ -173,6 +194,8 @@ public class OcFlowMapper {
                 .errorMessage(event.getErrorMessage())
                 .createdAt(event.getCreatedAt())
                 .sentAt(event.getSentAt())
+                .numDossierTtn(numDossier)
+                .reference(reference)
                 .build();
     }
 }

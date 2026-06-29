@@ -16,4 +16,6 @@ public class OcOutboundEventResponse {
     private String errorMessage;
     private LocalDateTime createdAt;
     private LocalDateTime sentAt;
+    private String reference;
+    private String numDossierTtn;
 }

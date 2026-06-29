@@ -2,7 +2,6 @@ package com.banque.msoc.service;
 
 import com.banque.msoc.domain.entity.OcFlow;
 import com.banque.msoc.domain.enums.EventStatus;
-import com.banque.msoc.domain.enums.OcFlowStatus;
 import com.banque.msoc.dto.kafka.OcOutboundEventResponse;
 import com.banque.msoc.dto.rest.*;
 import com.banque.msoc.exception.FlowNotFoundException;
@@ -17,6 +16,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -30,9 +31,24 @@ public class OcFlowQueryService {
     private final OcOutboundEventRepository outboundEventRepository;
     private final OcFlowMapper mapper;
 
+    private Pageable applyDefaultCreatedAtDescSort(Pageable pageable) {
+        if (pageable.getSort().isSorted()) {
+            return pageable;
+        }
+
+        return PageRequest.of(
+                pageable.getPageNumber(),
+                pageable.getPageSize(),
+                Sort.by(Sort.Direction.DESC, "createdAt")
+        );
+    }
+
     @Transactional(readOnly = true)
     public Page<OcFlowResponse> search(OcFlowSearchCriteria criteria, Pageable pageable) {
-        return flowRepository.findAll(spec(criteria), pageable).map(mapper::toSummaryResponse);
+        Pageable sortedPageable = applyDefaultCreatedAtDescSort(pageable);
+
+        return flowRepository.findAll(spec(criteria), sortedPageable)
+                .map(mapper::toSummaryResponse);
     }
 
     @Transactional(readOnly = true)
@@ -75,9 +91,146 @@ public class OcFlowQueryService {
 
     @Transactional(readOnly = true)
     public OcStatsResponse getStats() {
+        long totalFlux = flowRepository.count();
+
+        long fluxAcceptes = auditRepository.countLatestAccepted();
+
+        long fluxRejetes = auditRepository.countLatestRejected();
+
+        long fluxEnAttente = totalFlux - fluxAcceptes - fluxRejetes;
+
+        long fluxErreurOutbound = outboundEventRepository.countByStatus(EventStatus.FAILED);
+
         return OcStatsResponse.builder()
-                .totalFlux(flowRepository.count())
-                .fluxErreurOutbound(outboundEventRepository.countByStatus(EventStatus.FAILED))
+                .totalFlux(totalFlux)
+                .fluxEnAttente(fluxEnAttente)
+                .fluxAcceptes(fluxAcceptes)
+                .fluxRejetes(fluxRejetes)
+                .fluxErreurOutbound(fluxErreurOutbound)
                 .build();
+    }
+
+    @Transactional(readOnly = true)
+    public List<OcFlowActivityResponse> getActivityLast7Days() {
+        return flowRepository.countFlowsByCreatedAtLast7Days()
+                .stream()
+                .map(row -> OcFlowActivityResponse.builder()
+                        .dateKey(row.getDateKey())
+                        .jour(row.getJour())
+                        .flux(row.getFlux() == null ? 0L : row.getFlux())
+                        .build())
+                .toList();
+    }
+
+    @Transactional(readOnly = true)
+    public OcOutboundDashboardResponse getOutboundDashboard() {
+
+        long enAttenteEnvoi = outboundEventRepository.countByStatus(EventStatus.PENDING);
+
+        long envoyes = outboundEventRepository.countByStatus(EventStatus.SENT);
+
+        long enErreur = outboundEventRepository.countByStatus(EventStatus.FAILED);
+
+        List<OcOutboundEventResponse> derniersFluxSortants =
+                outboundEventRepository.findTop5ByOrderByCreatedAtDesc()
+                        .stream()
+                        .map(mapper::toOutboundEventResponse)
+                        .toList();
+
+        return OcOutboundDashboardResponse.builder()
+                .enAttenteEnvoi(enAttenteEnvoi)
+                .envoyes(envoyes)
+                .enErreur(enErreur)
+                .derniersFluxSortants(derniersFluxSortants)
+                .build();
+    }
+
+    @Transactional(readOnly = true)
+    public List<OcTimelineEventResponse> getRecentTimeline() {
+        List<OcTimelineEventResponse> events = new java.util.ArrayList<>();
+
+        flowRepository.findTop10ByOrderByCreatedAtDesc()
+                .forEach(flow -> events.add(
+                        OcTimelineEventResponse.builder()
+                                .timestamp(flow.getCreatedAt())
+                                .type("FLUX_RECU")
+                                .description("Flux " + safe(flow.getFlowReference()) + " reçu")
+                                .utilisateur(flow.getSource() != null ? flow.getSource() : "SYSTÈME")
+                                .build()
+                ));
+
+        auditRepository.findTop10ByOrderByCreatedAtDesc()
+                .forEach(audit -> {
+                    String decision = audit.getDecision() != null
+                            ? audit.getDecision().name()
+                            : "";
+
+                    String type;
+                    String action;
+
+                    if ("ACCEPT".equals(decision)) {
+                        type = "ACCEPTATION";
+                        action = "accepté";
+                    } else if ("REJECT".equals(decision)) {
+                        type = "REJET";
+                        action = "rejeté";
+                    } else {
+                        type = "CONSULTATION";
+                        action = "traité";
+                    }
+
+                    String reference = audit.getFlow() != null
+                            ? audit.getFlow().getFlowReference()
+                            : "-";
+
+                    events.add(
+                            OcTimelineEventResponse.builder()
+                                    .timestamp(audit.getCreatedAt())
+                                    .type(type)
+                                    .description("Flux " + safe(reference) + " " + action)
+                                    .utilisateur(
+                                            audit.getUserId() != null
+                                                    ? audit.getUserId()
+                                                    : audit.getRoleCode()
+                                    )
+                                    .build()
+                    );
+                });
+
+        outboundEventRepository.findTop10ByOrderByCreatedAtDesc()
+                .forEach(event -> {
+                    String reference = event.getFlow() != null
+                            ? event.getFlow().getFlowReference()
+                            : "flux sortant";
+
+                    boolean failed = event.getStatus() == EventStatus.FAILED;
+
+                    LocalDateTime eventDate = event.getSentAt() != null
+                            ? event.getSentAt()
+                            : event.getCreatedAt();
+
+                    events.add(
+                            OcTimelineEventResponse.builder()
+                                    .timestamp(eventDate)
+                                    .type(failed ? "ERREUR" : "FLUX_SORTANT")
+                                    .description(
+                                            failed
+                                                    ? "Erreur flux sortant " + safe(reference)
+                                                    : "Flux sortant " + safe(reference) + " envoyé"
+                                    )
+                                    .utilisateur("SYSTÈME")
+                                    .build()
+                    );
+                });
+
+        return events.stream()
+                .filter(e -> e.getTimestamp() != null)
+                .sorted((a, b) -> b.getTimestamp().compareTo(a.getTimestamp()))
+                .limit(8)
+                .toList();
+    }
+
+    private String safe(String value) {
+        return value == null || value.isBlank() ? "-" : value;
     }
 }

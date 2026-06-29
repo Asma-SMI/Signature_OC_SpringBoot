@@ -8,6 +8,7 @@ public record OcNewFlowReceivedEvent(    String businessKey,
                                          String statutMetier,
                                          String signatureStatus,
                                          LocalDateTime receivedAt,
+                                         LocalDateTime createdAt,
                                          String sourceEventId,
                                          String correlationId) {
 }

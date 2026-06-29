@@ -49,7 +49,7 @@ public class OcNotificationPersistenceService {
                 .readFlag("N")
                 .sourceEventId(event.sourceEventId())
                 .correlationId(event.correlationId())
-                .createdAt(event.receivedAt() != null ? event.receivedAt() : LocalDateTime.now())
+                .createdAt(event.createdAt() != null ? event.createdAt() : LocalDateTime.now())
                 .build();
 
         OcNotification saved = notificationRepository.save(notification);
@@ -112,6 +112,7 @@ public class OcNotificationPersistenceService {
                 n.getNumeroDemande(),
                 n.getStatutMetier(),
                 n.getSignatureStatus(),
+                null,
                 n.getCreatedAt(),
                 n.getTitle(),
                 n.getMessage(),

@@ -5,6 +5,7 @@ import com.banque.msoc.domain.enums.SignatureStatus;
 import lombok.Builder;
 import lombok.Data;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Data
@@ -21,4 +22,6 @@ public class OcFlowResponse {
     private LocalDateTime finalizedAt;
     private OcFlowDetailResponse detail;  //détail complet
     private OcFlowDetailSummaryResponse summaryDetail; //résumé utile pour le tableau
+    private LocalDateTime createdAt;
+    private BigDecimal montantTotal;
 }

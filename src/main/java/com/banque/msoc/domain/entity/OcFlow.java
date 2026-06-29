@@ -82,17 +82,6 @@ public class OcFlow {
     @Builder.Default
     private List<OcFlowPayload> payloads = new ArrayList<>();
 
-    @PrePersist
-    void prePersist() {
-        if (createdAt == null) createdAt = LocalDateTime.now();
-        if (version == null) version = 0L;
-    }
-
-    @PreUpdate
-    void preUpdate() {
-        updatedAt = LocalDateTime.now();
-    }
-
     public void attachDetail(OcFlowDetail detail) {
         this.detail = detail;
         detail.setFlow(this);

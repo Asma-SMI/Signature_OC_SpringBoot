@@ -47,6 +47,8 @@ public class OcInboundService {
                 ? OcFlowStatus.SIGNATURE_INVALID
                 : OcFlowStatus.PENDING_REVIEW;
 
+        LocalDateTime now = LocalDateTime.now();
+
         OcFlow flow = OcFlow.builder()
                 .businessKey(p.getNumeroDossier())
                 .flowReference(p.getNumeroDemande())
@@ -57,6 +59,8 @@ public class OcInboundService {
                 .correlationId(message.getCorrelationId())
                 .inboundMessageId(message.getMessageId())
                 .receivedAt(message.getReceivedAt())
+                .createdAt(now)
+                .updatedAt(now)
                 .build();
         flow.attachDetail(mapDetail(p));
         flow = flowRepository.save(flow);
@@ -84,7 +88,8 @@ public class OcInboundService {
                 p.getNumeroDemande(),
                 flow.getStatus() != null ? flow.getStatus().name() : null,
                 flow.getSignatureStatus() != null ? flow.getSignatureStatus().name() : null,
-                flow.getReceivedAt() != null ? flow.getReceivedAt() : LocalDateTime.now(),
+                flow.getReceivedAt(),
+                flow.getCreatedAt(),
                 message.getMessageId(),
                 message.getCorrelationId()
         ));

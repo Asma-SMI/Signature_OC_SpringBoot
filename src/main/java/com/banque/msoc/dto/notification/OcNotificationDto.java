@@ -12,6 +12,7 @@ public record OcNotificationDto( Long id,
                                  String statutMetier,
                                  String signatureStatus,
                                  LocalDateTime receivedAt,
+                                 LocalDateTime createdAt,
                                  String title,
                                  String message,
                                  boolean read) {
