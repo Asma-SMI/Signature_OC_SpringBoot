@@ -19,7 +19,7 @@ import java.util.Collection;
 
 @Configuration
 @EnableWebSecurity
-public class SecurityConfig {
+public class SecurityConfigDev {
 
     @Bean
     @Profile("dev")
@@ -33,14 +33,8 @@ public class SecurityConfig {
                         .requestMatchers("/error").permitAll()
                         .requestMatchers("/api/oc/notifications/stream").permitAll()
                         .requestMatchers("/api/oc/notifications/**").permitAll()
-
-
                         .requestMatchers("/api/oc/flows/*/decision").permitAll()
-                        //.hasAnyAuthority("OC_DOWNSTREAM")
-
                         .requestMatchers("/api/oc/flows/**").permitAll()
-                      //  .hasAnyAuthority("OC_CONSULTATION")
-
                         .anyRequest().authenticated()
                 )
                 .oauth2ResourceServer(oauth2 -> oauth2
