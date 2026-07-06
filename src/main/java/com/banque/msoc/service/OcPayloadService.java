@@ -8,6 +8,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @RequiredArgsConstructor
@@ -26,6 +27,23 @@ public class OcPayloadService {
                     .build());
         } catch (JsonProcessingException e) {
             throw new IllegalStateException("Impossible de sérialiser le snapshot JSON", e);
+        }
+    }
+
+    @Transactional(readOnly = true)
+    public Object getLatestPayload(OcFlow flow, PayloadType payloadType) {
+        return repository
+                .findTopByFlowAndPayloadTypeOrderByCreatedAtDesc(flow, payloadType)
+                .map(OcFlowPayload::getPayloadJson)
+                .map(this::readPayloadJson)
+                .orElse(null);
+    }
+
+    private Object readPayloadJson(String json) {
+        try {
+            return objectMapper.readValue(json, Object.class);
+        } catch (JsonProcessingException e) {
+            throw new IllegalStateException("Impossible de lire le payload JSON", e);
         }
     }
 }

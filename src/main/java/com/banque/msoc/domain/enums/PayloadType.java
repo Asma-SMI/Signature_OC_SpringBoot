@@ -4,5 +4,6 @@ public enum PayloadType {
     INBOUND,
     DECISION_DRAFT,
     FINAL_DECISION,
-    OUTBOUND_REQUEST
+    OUTBOUND_REQUEST,
+
 }
