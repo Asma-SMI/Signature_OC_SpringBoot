@@ -35,8 +35,8 @@ public class OcFlow {
     @Column(name = "FLOW_REFERENCE", length = 50)
     private String flowReference;
 
-    @Column(name = "FLOW_TYPE", nullable = false, length = 30)
-    private String flowType;
+   @Column(name = "FLOW_TYPE", nullable = false, length = 30)
+   private String flowType;
 
     @Column(name = "SOURCE", length = 50)
     private String source;

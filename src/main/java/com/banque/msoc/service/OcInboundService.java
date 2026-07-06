@@ -52,7 +52,7 @@ public class OcInboundService {
         OcFlow flow = OcFlow.builder()
                 .businessKey(p.getNumeroDossier())
                 .flowReference(p.getNumeroDemande())
-                .flowType(message.getFlowType())
+                .flowType("OBLIG_CAUTIONNEE")
                 .source(message.getSource())
                 .signatureStatus(message.getSignatureStatus())
                 .status(status)

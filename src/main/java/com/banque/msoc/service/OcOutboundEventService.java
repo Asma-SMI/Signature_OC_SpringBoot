@@ -37,7 +37,7 @@ public class OcOutboundEventService {
                 .messageId(UUID.randomUUID().toString())
                 .correlationId(flow.getCorrelationId())
                 .businessKey(flow.getBusinessKey())
-                .flowType(flow.getFlowType())
+              //  .flowType(flow.getFlowType())
                 .decision(request.getDecision())
                 .dossierStatus(flow.getStatus())
                 .requestedAction("GENERATE_AND_SIGN")

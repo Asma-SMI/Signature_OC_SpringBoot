@@ -14,7 +14,7 @@ public class OcOutboundKafkaMessage {
     private String messageId;
     private String correlationId;
     private String businessKey;
-    private String flowType;
+   // private String flowType;
     private OcDecision decision;
     private OcFlowStatus dossierStatus;
     private Map<String, Object> responsePayload;
