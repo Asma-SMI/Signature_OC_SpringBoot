@@ -5,11 +5,11 @@ import com.banque.msoc.domain.entity.OcOutboundEvent;
 import com.banque.msoc.domain.enums.EventStatus;
 import com.banque.msoc.domain.enums.OcDecision;
 import com.banque.msoc.domain.enums.PayloadType;
+import com.banque.msoc.dto.kafka.OcInboundPayloadDto;
 import com.banque.msoc.dto.kafka.OcOutboundKafkaMessage;
 import com.banque.msoc.dto.rest.OcDecisionRequest;
 import com.banque.msoc.repository.OcOutboundEventRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
@@ -17,7 +17,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
-import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.UUID;
 
@@ -38,7 +37,7 @@ public class OcOutboundEventService {
             OcDecisionRequest request,
             String decisionUser
     ) {
-        Map<String, Object> responsePayload = buildResponsePayload(flow, request, decisionUser);
+        OcInboundPayloadDto responsePayload = buildResponsePayload(flow, request);
 
         OcOutboundKafkaMessage message = OcOutboundKafkaMessage.builder()
                 .messageId(UUID.randomUUID().toString())
@@ -77,12 +76,11 @@ public class OcOutboundEventService {
         }
     }
 
-    private Map<String, Object> buildResponsePayload(
+    private OcInboundPayloadDto buildResponsePayload(
             OcFlow flow,
-            OcDecisionRequest request,
-            String user
+            OcDecisionRequest request
     ) {
-        Map<String, Object> payload = loadOriginalInboundPayload(flow);
+        OcInboundPayloadDto payload = loadOriginalInboundPayloadDto(flow);
 
         boolean accepted = request.getDecision() == OcDecision.ACCEPT;
 
@@ -90,17 +88,16 @@ public class OcOutboundEventService {
         String decisionCode = accepted ? "ACCEPT" : "REJECT";
         String decisionLabel = accepted ? "Acceptation bancaire" : "Rejet bancaire";
 
+        payload.setTypeDocument(outboundTypeDocument);
 
-        payload.put("typeDocument", outboundTypeDocument);
-
-        payload.put("codeDecisionBanque", decisionCode);
-        payload.put("libelleDecision", decisionLabel);
-        payload.put("motifRejet", accepted ? null : request.getReason());
+        payload.setCodeDecisionBanque(decisionCode);
+        payload.setLibelleDecision(decisionLabel);
+        payload.setMotifRejet(accepted ? null : request.getReason());
 
         return payload;
     }
 
-    private Map<String, Object> loadOriginalInboundPayload(OcFlow flow) {
+    private OcInboundPayloadDto loadOriginalInboundPayloadDto(OcFlow flow) {
         Object inboundPayload = payloadService.getLatestPayload(
                 flow,
                 PayloadType.INBOUND
@@ -119,15 +116,10 @@ public class OcOutboundEventService {
 
         Object innerPayload = root.get("payload");
 
-        if (innerPayload instanceof Map<?, ?>) {
-            Map<String, Object> payload = objectMapper.convertValue(
-                    innerPayload,
-                    new com.fasterxml.jackson.core.type.TypeReference<Map<String, Object>>() {}
-            );
-
-            return new LinkedHashMap<>(payload);
+        if (innerPayload != null) {
+            return objectMapper.convertValue(innerPayload, OcInboundPayloadDto.class);
         }
 
-        return new LinkedHashMap<>(root);
+        return objectMapper.convertValue(root, OcInboundPayloadDto.class);
     }
 }

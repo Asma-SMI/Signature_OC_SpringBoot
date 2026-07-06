@@ -6,7 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 
 import java.time.LocalDateTime;
-import java.util.Map;
+
 
 @Data
 @Builder
@@ -17,7 +17,7 @@ public class OcOutboundKafkaMessage {
    // private String flowType;
     private OcDecision decision;
     private OcFlowStatus dossierStatus;
-    private Map<String, Object> responsePayload;
+    private OcInboundPayloadDto responsePayload;
     private String requestedAction;
     private LocalDateTime timestamp;
 }
