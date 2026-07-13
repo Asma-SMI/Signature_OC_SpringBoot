@@ -1,0 +1,12 @@
+2026-07-08 08:44:35.998 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16h1m7s565ms141µs599ns).
+2026-07-08 09:10:50.490 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions revoked: [station.oc.inbound-0]
+2026-07-08 09:10:50.781 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: Consumer stopped
+2026-07-08 09:10:50.787 [http-nio-8082-exec-5] DEBUG com.banque.msoc.service.OcNotificationService - SSE timeout
+2026-07-08 09:10:50.787 [http-nio-8082-exec-7] DEBUG com.banque.msoc.service.OcNotificationService - SSE timeout
+2026-07-08 09:10:50.788 [http-nio-8082-exec-8] DEBUG com.banque.msoc.service.OcNotificationService - SSE timeout
+2026-07-08 09:10:50.813 [http-nio-8082-exec-7] DEBUG com.banque.msoc.service.OcNotificationService - SSE completed
+2026-07-08 09:10:50.813 [http-nio-8082-exec-5] DEBUG com.banque.msoc.service.OcNotificationService - SSE completed
+2026-07-08 09:10:50.813 [http-nio-8082-exec-8] DEBUG com.banque.msoc.service.OcNotificationService - SSE completed
+2026-07-08 09:10:50.884 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-08 09:10:50.890 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-07-08 09:10:51.698 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

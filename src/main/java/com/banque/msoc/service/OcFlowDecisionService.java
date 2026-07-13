@@ -27,10 +27,13 @@ public class OcFlowDecisionService {
     private final OcPayloadService payloadService;
     private final OcAuditService auditService;
     private final OcOutboundEventService outboundEventService;
+    private final CurrentUserProvider currentUserProvider;
 
     @Transactional
     public OcDecisionResponse decide(String businessKey, boolean finalize, OcDecisionRequest request, DecisionContext context) {
         rulesService.validateDecisionInput(request.getDecision(), finalize, request.getReason());
+        String currentUserEmail = currentUserProvider.getCurrentUserEmail();
+        context.setUserId(currentUserEmail);
         if (StringUtils.hasText(context.getIdempotencyKey()) && auditRepository.existsByIdempotencyKey(context.getIdempotencyKey())) {
             throw new DuplicateMessageException(context.getIdempotencyKey());
         }
@@ -50,10 +53,10 @@ public class OcFlowDecisionService {
         rulesService.assertOperationModifiable(operation);
 
         if (finalize) {
-            rulesService.applyFinalDecision(flow, operation, request.getDecision(), context.getUserId());
-            payloadService.savePayload(flow, PayloadType.FINAL_DECISION, request, context.getUserId());
+            rulesService.applyFinalDecision(flow, operation, request.getDecision(), currentUserEmail);
+            payloadService.savePayload(flow, PayloadType.FINAL_DECISION, request, currentUserEmail);
             auditService.recordDecision(flow, operation, true, request, context);
-            outboundEventService.createPendingOutboundEvent(flow, request, context.getUserId());
+            outboundEventService.createPendingOutboundEvent(flow, request, currentUserEmail);
             return OcDecisionResponse.builder()
                     .businessKey(flow.getBusinessKey())
                     .operationStatus(operation.getStatus())
@@ -67,7 +70,7 @@ public class OcFlowDecisionService {
         }
 
         rulesService.applyIntermediateDecision(operation, request.getDecision());
-        payloadService.savePayload(flow, PayloadType.DECISION_DRAFT, request, context.getUserId());
+        payloadService.savePayload(flow, PayloadType.DECISION_DRAFT, request, currentUserEmail);
         auditService.recordDecision(flow, operation, false, request, context);
         return OcDecisionResponse.builder()
                 .businessKey(flow.getBusinessKey())

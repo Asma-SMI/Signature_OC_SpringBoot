@@ -6,6 +6,7 @@ import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -19,14 +20,19 @@ public class OcNotificationService {
     public SseEmitter subscribe() {
         SseEmitter emitter = new SseEmitter(0L);
 
+        emitters.add(emitter);
+
+        log.info("[MS-OC SSE] Nouveau client connecté. Clients actifs: {}", emitters.size());
+
         emitter.onCompletion(() -> {
-            log.debug("SSE completed");
             emitters.remove(emitter);
+            log.info("[MS-OC SSE] Client déconnecté. Clients actifs: {}", emitters.size());
         });
 
         emitter.onTimeout(() -> {
-            log.debug("SSE timeout");
             emitters.remove(emitter);
+            log.info("[MS-OC SSE] Timeout client. Clients actifs: {}", emitters.size());
+
             try {
                 emitter.complete();
             } catch (Exception ignored) {
@@ -34,18 +40,22 @@ public class OcNotificationService {
         });
 
         emitter.onError(error -> {
-            log.debug("SSE error/client disconnected: {}", error.getMessage());
             emitters.remove(emitter);
+            log.warn("[MS-OC SSE] Erreur client SSE. Clients actifs: {}. Erreur: {}",
+                    emitters.size(),
+                    error.getMessage()
+            );
         });
-
-        emitters.add(emitter);
 
         try {
             emitter.send(SseEmitter.event()
+                    .id(UUID.randomUUID().toString())
                     .name("CONNECTED")
-                    .data("Connexion notifications MS-OC ouverte"));
+                    .data("Connexion notifications MS-OC ouverte - " + LocalDateTime.now(), MediaType.TEXT_PLAIN));
+
+            log.info("[MS-OC SSE] Event CONNECTED envoyé au client SSE.");
         } catch (Exception e) {
-            log.debug("Impossible d'envoyer CONNECTED, client déjà déconnecté: {}", e.getMessage());
+            log.warn("[MS-OC SSE] Impossible d'envoyer CONNECTED: {}", e.getMessage());
             emitters.remove(emitter);
         }
 
@@ -53,16 +63,38 @@ public class OcNotificationService {
     }
 
     public void sendNewFlowNotification(OcNotificationDto notification) {
+        if (notification == null) {
+            log.warn("[MS-OC SSE] Notification null, aucun envoi.");
+            return;
+        }
+
+        log.info(
+                "[MS-OC SSE] Envoi notification temps réel. id={}, businessKey={}, dossier={}, clients={}",
+                notification.id(),
+                notification.businessKey(),
+                notification.numeroDossier(),
+                emitters.size()
+        );
+
+        if (emitters.isEmpty()) {
+            log.warn("[MS-OC SSE] Aucun client connecté. Notification sauvegardée uniquement en BDD.");
+            return;
+        }
+
         for (SseEmitter emitter : emitters) {
             try {
+                /*
+                 * Important :
+                 * Pas de .name("OC_NEW_FLOW")
+                 * Comme ça, React reçoit directement dans eventSource.onmessage.
+                 */
                 emitter.send(SseEmitter.event()
                         .id(UUID.randomUUID().toString())
-                        .name("OC_NEW_FLOW")
                         .data(notification, MediaType.APPLICATION_JSON));
-            } catch (Exception e) {
-                log.debug("Client SSE déconnecté, suppression de l'emitter: {}", e.getMessage());
-                emitters.remove(emitter);
 
+            } catch (Exception e) {
+                emitters.remove(emitter);
+                log.warn("[MS-OC SSE] Client SSE déconnecté, suppression de l'emitter: {}", e.getMessage());
             }
         }
     }

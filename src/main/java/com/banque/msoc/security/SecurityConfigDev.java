@@ -32,9 +32,10 @@ public class SecurityConfigDev {
                         .requestMatchers("/api/oc/dev/**").permitAll()
                         .requestMatchers("/error").permitAll()
                         .requestMatchers("/api/oc/notifications/stream").permitAll()
-                        .requestMatchers("/api/oc/notifications/**").permitAll()
-                        .requestMatchers("/api/oc/flows/*/decision").permitAll()
-                        .requestMatchers("/api/oc/flows/**").permitAll()
+                        .requestMatchers("/api/oc/notifications/**").hasAnyAuthority("OC_CONSULTATION","OC_DOWNSTREAM")
+                        .requestMatchers("/api/oc/flows/*/decision").hasAnyAuthority("OC_CONSULTATION","OC_DOWNSTREAM")
+                      //  .requestMatchers("/api/oc/flows/**").permitAll()
+                        .requestMatchers("/api/oc/flows/**").hasAnyAuthority("OC_CONSULTATION","OC_DOWNSTREAM")
                         .anyRequest().authenticated()
                 )
                 .oauth2ResourceServer(oauth2 -> oauth2
