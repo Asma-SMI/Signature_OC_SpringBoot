@@ -35,16 +35,16 @@ public class SecurityConfigProd {
 
                         // consultation des flux
                         .requestMatchers("/api/oc/flows/**")
-                        .hasAnyAuthority("OC_CONSULTATION", "OC_DOWNSTREAM")
+                        .hasAnyAuthority("OC_CONSULTATION", "OC_DOWNSTREAM","ADMIN_METIER")
 
                         // décision métier
                         .requestMatchers("/api/oc/flows/*/decision")
-                        .hasAnyAuthority("OC_DOWNSTREAM")
+                        .hasAnyAuthority("OC_DOWNSTREAM","ADMIN_METIER")
 
                         // notifications
                         .requestMatchers("/api/oc/notifications/stream").permitAll()
                         .requestMatchers("/api/oc/notifications/**")
-                        .hasAnyAuthority("OC_CONSULTATION", "OC_DOWNSTREAM")
+                        .hasAnyAuthority("OC_CONSULTATION", "OC_DOWNSTREAM","ADMIN_METIER")
 
                         .anyRequest().authenticated()
                 )

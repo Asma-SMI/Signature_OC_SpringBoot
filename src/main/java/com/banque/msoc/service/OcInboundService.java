@@ -102,6 +102,7 @@ public class OcInboundService {
                 .numDemTtn(p.getNumeroDemande())
                 .numDossTtn(p.getNumeroDossier())
                 .numMessTtn(p.getNumeroMessage())
+                .utilisateur(p.getUtilisateur())
                 .etat(p.getEtat())
                 .emetteur(p.getEmetteur())
                 .destinataire(p.getDestinataire())

@@ -85,6 +85,7 @@ public class OcFlowMapper {
                 .numMessTtn(d.getNumMessTtn())
                 .numDossTtn(d.getNumDossTtn())
                 .numDemTtn(d.getNumDemTtn())
+                .utilisateur(d.getUtilisateur())
 
                 .emetteur(d.getEmetteur())
                 .destinataire(d.getDestinataire())

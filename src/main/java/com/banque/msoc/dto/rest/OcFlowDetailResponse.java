@@ -16,6 +16,7 @@ public class OcFlowDetailResponse {
     private String numMessTtn;
     private String numDossTtn;
     private String numDemTtn;
+    private String utilisateur;
 
     private String emetteur;
     private String destinataire;

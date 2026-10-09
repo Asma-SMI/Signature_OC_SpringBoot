@@ -31,6 +31,7 @@ public class OcFlowDetail {
     @Column(name = "NUM_MESS_TTN", length = 50) private String numMessTtn;
     @Column(name = "NUM_DOSS_TTN", length = 50) private String numDossTtn;
     @Column(name = "NUM_DEM_TTN", length = 50) private String numDemTtn;
+    @Column(name = "UTILISATEUR", length = 50) private String utilisateur;
 
     @Column(name = "EMETTEUR", length = 50) private String emetteur;
     @Column(name = "DESTINATAIRE", length = 50) private String destinataire;

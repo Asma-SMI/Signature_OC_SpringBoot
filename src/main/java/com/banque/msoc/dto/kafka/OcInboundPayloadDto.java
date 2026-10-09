@@ -17,6 +17,7 @@ public class OcInboundPayloadDto {
     private String numeroDemande;
     private String numeroDossier;
     private String numeroMessage;
+    private String utilisateur;
 
     private String emetteur;
     private String destinataire;
@@ -73,4 +74,6 @@ public class OcInboundPayloadDto {
     private String indicateurTransaction;
 
     private String motifAnnulation;
+
+
 }

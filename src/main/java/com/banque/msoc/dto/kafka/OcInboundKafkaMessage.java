@@ -10,6 +10,8 @@ import java.util.Map;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class OcInboundKafkaMessage {
+    private String version;
+    private String partner;
     private String messageId;
     private String correlationId;
     private String source;
