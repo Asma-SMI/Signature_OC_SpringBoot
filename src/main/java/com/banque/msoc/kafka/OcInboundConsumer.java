@@ -38,10 +38,12 @@ public class OcInboundConsumer {
             @Header(KafkaHeaders.OFFSET) Long offset
     ) throws Exception {
 
+        String originalJson = message;
+
         // Deserialisation du nouveau contrat
         StationOcInboundDto stationMessage =
                 objectMapper.readValue(
-                        message,
+                        originalJson,
                         StationOcInboundDto.class
                 );
 
@@ -52,6 +54,7 @@ public class OcInboundConsumer {
         // Traitement metier existant
         inboundService.processInboundMessage(
                 dto,
+                originalJson,
                 topic,
                 partition,
                 offset

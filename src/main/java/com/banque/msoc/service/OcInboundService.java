@@ -25,7 +25,18 @@ public class OcInboundService {
     private final ApplicationEventPublisher eventPublisher;
 
     @Transactional
-    public void processInboundMessage(OcInboundKafkaMessage message, String topic, Integer partition, Long offset) {
+    public void processInboundMessage(OcInboundKafkaMessage message,
+                                      String originalJson,
+                                      String topic,
+                                      Integer partition,
+                                      Long offset) {
+        // Verification de la presence du JSON original
+        if (originalJson == null || originalJson.isBlank()) {
+            throw new InvalidDecisionException(
+                    "Message Kafka entrant invalide : JSON original manquant."
+            );
+        }
+
         if (message.getMessageId() == null || message.getPayload() == null || message.getPayload().getNumeroDossier() == null) {
             throw new InvalidDecisionException("Message Kafka entrant invalide: messageId, payload ou numeroDossier manquant.");
         }
@@ -65,7 +76,7 @@ public class OcInboundService {
         flow.attachDetail(mapDetail(p));
         flow = flowRepository.save(flow);
 
-        payloadService.savePayload(flow, PayloadType.INBOUND, message, "KAFKA");
+        payloadService.savePayload(flow, PayloadType.INBOUND, originalJson, "KAFKA");
 
         if (message.getSignatureStatus() == SignatureStatus.VALID) {
             operationRepository.save(OcOperation.builder()
