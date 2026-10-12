@@ -5,9 +5,12 @@ import com.banque.msoc.domain.entity.OcOutboundEvent;
 import com.banque.msoc.domain.enums.EventStatus;
 import com.banque.msoc.domain.enums.OcDecision;
 import com.banque.msoc.domain.enums.PayloadType;
+import com.banque.msoc.dto.kafka.OcInboundKafkaMessage;
 import com.banque.msoc.dto.kafka.OcInboundPayloadDto;
+import com.banque.msoc.dto.kafka.station.StationOcInboundDto;
 import com.banque.msoc.dto.kafka.station.StationOcOutboundDto;
 import com.banque.msoc.dto.rest.OcDecisionRequest;
+import com.banque.msoc.mapper.StationOcInboundMapper;
 import com.banque.msoc.mapper.StationOcOutboundMapper;
 import com.banque.msoc.repository.OcOutboundEventRepository;
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -29,6 +32,7 @@ public class OcOutboundEventService {
     private final OcPayloadService payloadService;
     private final ObjectMapper objectMapper;
     private final StationOcOutboundMapper outboundMapper;
+    private final StationOcInboundMapper inboundMapper;
 
     @Value("${msoc.kafka.outbound-topic}")
     private String outboundTopic;
@@ -132,7 +136,7 @@ public class OcOutboundEventService {
         return payload;
     }
 
-    private OcInboundPayloadDto loadOriginalInboundPayloadDto(
+  /*  private OcInboundPayloadDto loadOriginalInboundPayloadDto(
             OcFlow flow
     ) {
 
@@ -170,9 +174,86 @@ public class OcOutboundEventService {
                 root,
                 OcInboundPayloadDto.class
         );
+    } */
+
+
+    private OcInboundPayloadDto loadOriginalInboundPayloadDto(
+            OcFlow flow
+    ) {
+
+        // Recuperation du JSON archive dans OC_FLOW_PAYLOAD
+        Map<String, Object> root = loadInboundRoot(flow);
+
+        // ==========================================
+        // NOUVEAU FORMAT STATION TTN
+        // { header, result, data }
+        // ==========================================
+
+        if (root.containsKey("header")
+                && root.containsKey("result")
+                && root.containsKey("data")) {
+
+            // Reconstruction du DTO station original
+            StationOcInboundDto stationMessage =
+                    objectMapper.convertValue(
+                            root,
+                            StationOcInboundDto.class
+                    );
+
+            // Reutilisation du mapper inbound existant
+            OcInboundKafkaMessage internalMessage =
+                    inboundMapper.toLegacyMessage(stationMessage);
+
+            if (internalMessage == null
+                    || internalMessage.getPayload() == null) {
+
+                throw new IllegalStateException(
+                        "Impossible de reconstruire le payload entrant du dossier "
+                                + flow.getBusinessKey()
+                );
+            }
+
+            OcInboundPayloadDto payload =
+                    internalMessage.getPayload();
+
+            // Eviter la generation d'un outbound vide
+            if (payload.getNumeroDossier() == null
+                    || payload.getNumeroDemande() == null
+                    || payload.getMontantTotal() == null) {
+
+                throw new IllegalStateException(
+                        "Donnees du flux entrant incompletes pour le dossier "
+                                + flow.getBusinessKey()
+                );
+            }
+
+            return payload;
+        }
+
+        // ==========================================
+        // ANCIEN FORMAT MS_OC
+        // { version, partner, payload: {...} }
+        // ==========================================
+
+        Object innerPayload = root.get("payload");
+
+        if (innerPayload != null) {
+
+            return objectMapper.convertValue(
+                    innerPayload,
+                    OcInboundPayloadDto.class
+            );
+        }
+
+        // Compatibilite avec un ancien DTO directement archive
+        return objectMapper.convertValue(
+                root,
+                OcInboundPayloadDto.class
+        );
     }
 
-    private Map<String, Object> loadInboundRoot(OcFlow flow) {
+
+  /*  private Map<String, Object> loadInboundRoot(OcFlow flow) {
 
         Object inboundPayload =
                 payloadService.getLatestPayload(
@@ -191,7 +272,51 @@ public class OcOutboundEventService {
                 inboundPayload,
                 new TypeReference<Map<String, Object>>() {}
         );
+    }  */
+
+
+    private Map<String, Object> loadInboundRoot(OcFlow flow) {
+
+        Object inboundPayload =
+                payloadService.getLatestPayload(
+                        flow,
+                        PayloadType.INBOUND
+                );
+
+        if (inboundPayload == null) {
+            throw new IllegalStateException(
+                    "Payload inbound introuvable pour le flux "
+                            + flow.getBusinessKey()
+            );
+        }
+
+        try {
+
+            // Cas 1 : JSON recupere sous forme de String
+            if (inboundPayload instanceof String json) {
+
+                return objectMapper.readValue(
+                        json,
+                        new TypeReference<Map<String, Object>>() {}
+                );
+            }
+
+            // Cas 2 : JSON deja converti en Map ou objet
+            return objectMapper.convertValue(
+                    inboundPayload,
+                    new TypeReference<Map<String, Object>>() {}
+            );
+
+        } catch (JsonProcessingException e) {
+
+            throw new IllegalStateException(
+                    "Impossible de lire le JSON entrant du dossier "
+                            + flow.getBusinessKey(),
+                    e
+            );
+        }
     }
+
 
     private String getInboundHeaderValue(
             Map<String, Object> root,

@@ -18,6 +18,7 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class StationOcOutboundMapper {
     private final ObjectMapper objectMapper;
+    private final StationOcInboundMapper inboundMapper;
 
     public StationOcOutboundDto map(
             OcInboundPayloadDto p,
@@ -65,9 +66,9 @@ public class StationOcOutboundMapper {
 
             // ROUTAGE
             set(data, "routage.emetteur",
-                    p.getEmetteur());
-            set(data, "routage.destinataire",
                     p.getDestinataire());
+            set(data, "routage.destinataire",
+                    "DOUANEE");
 
             // IMPORTATEUR
             set(data, "parties.importateur.code",

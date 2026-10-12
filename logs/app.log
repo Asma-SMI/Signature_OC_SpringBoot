@@ -12,3 +12,86 @@
 2026-10-12 09:44:34.344 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-10-12 09:44:34.372 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2026-10-12 09:44:35.336 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-12 09:44:43.528 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-10-12 09:44:43.612 [main] INFO  com.banque.msoc.MsOcApplication - Starting MsOcApplication using Java 17.0.18 with PID 17840 (C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc)
+2026-10-12 09:44:43.612 [main] DEBUG com.banque.msoc.MsOcApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-10-12 09:44:43.612 [main] INFO  com.banque.msoc.MsOcApplication - The following 1 profile is active: "dev"
+2026-10-12 09:44:45.054 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-12 09:44:45.182 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 118 ms. Found 8 JPA repository interfaces.
+2026-10-12 09:44:46.574 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2026-10-12 09:44:46.601 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2026-10-12 09:44:46.608 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-12 09:44:46.609 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-10-12 09:44:46.750 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-10-12 09:44:46.753 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3050 ms
+2026-10-12 09:44:47.319 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-12 09:44:47.433 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-10-12 09:44:47.487 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-10-12 09:44:47.884 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-12 09:44:47.928 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-12 09:44:50.658 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6cc8adff
+2026-10-12 09:44:50.660 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-12 09:44:53.732 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-12 09:45:05.082 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-12 09:45:06.238 [main] INFO  o.s.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-12 09:45:15.516 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2026-10-12 09:45:15.576 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2026-10-12 09:45:17.521 [main] INFO  com.banque.msoc.MsOcApplication - Started MsOcApplication in 34.69 seconds (process running for 35.279)
+2026-10-12 09:45:22.581 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions assigned: [station.oc.inbound-0]
+2026-10-12 09:45:58.289 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-12 09:45:58.289 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-12 09:45:58.289 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-10-12 09:46:05.854 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  com.banque.msoc.service.OcNotificationService - [MS-OC SSE] Envoi notification temps réel. id=132, businessKey=91281572, dossier=91281572, clients=0
+2026-10-12 09:46:05.855 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  com.banque.msoc.service.OcNotificationService - [MS-OC SSE] Aucun client connecté. Notification sauvegardée uniquement en BDD.
+2026-10-12 09:48:04.130 [http-nio-8082-exec-6] INFO  com.banque.msoc.service.OcNotificationService - [MS-OC SSE] Nouveau client connecté. Clients actifs: 1
+2026-10-12 09:48:04.199 [http-nio-8082-exec-6] INFO  com.banque.msoc.service.OcNotificationService - [MS-OC SSE] Event CONNECTED envoyé au client SSE.
+2026-10-12 10:05:06.434 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions revoked: [station.oc.inbound-0]
+2026-10-12 10:05:06.623 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: Consumer stopped
+2026-10-12 10:05:06.634 [http-nio-8082-exec-1] INFO  com.banque.msoc.service.OcNotificationService - [MS-OC SSE] Timeout client. Clients actifs: 0
+2026-10-12 10:05:06.669 [http-nio-8082-exec-1] INFO  com.banque.msoc.service.OcNotificationService - [MS-OC SSE] Client déconnecté. Clients actifs: 0
+2026-10-12 10:05:06.908 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-12 10:05:06.921 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-12 10:05:07.470 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-12 10:05:15.282 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-10-12 10:05:15.332 [main] INFO  com.banque.msoc.MsOcApplication - Starting MsOcApplication using Java 17.0.18 with PID 30608 (C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\MES projets\ms-oc-spring-boot\ms-oc)
+2026-10-12 10:05:15.332 [main] DEBUG com.banque.msoc.MsOcApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-10-12 10:05:15.332 [main] INFO  com.banque.msoc.MsOcApplication - The following 1 profile is active: "dev"
+2026-10-12 10:05:16.211 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-12 10:05:16.321 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 103 ms. Found 8 JPA repository interfaces.
+2026-10-12 10:05:17.336 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2026-10-12 10:05:17.345 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2026-10-12 10:05:17.348 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-12 10:05:17.348 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-10-12 10:05:17.489 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-10-12 10:05:17.491 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2109 ms
+2026-10-12 10:05:18.030 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-12 10:05:18.154 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-10-12 10:05:18.192 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-10-12 10:05:18.492 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-12 10:05:18.523 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-10-12 10:05:19.490 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@21a5b599
+2026-10-12 10:05:19.493 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-10-12 10:05:21.486 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-12 10:05:25.133 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-12 10:05:27.728 [main] INFO  o.s.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-12 10:05:34.601 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2026-10-12 10:05:34.674 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2026-10-12 10:05:35.939 [main] INFO  com.banque.msoc.MsOcApplication - Started MsOcApplication in 21.094 seconds (process running for 21.531)
+2026-10-12 10:05:41.719 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions assigned: [station.oc.inbound-0]
+2026-10-12 10:05:43.628 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-12 10:05:43.628 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-10-12 10:05:43.639 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2026-10-12 10:05:47.749 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  com.banque.msoc.service.OcNotificationService - [MS-OC SSE] Envoi notification temps réel. id=133, businessKey=91281573, dossier=91281573, clients=0
+2026-10-12 10:05:47.750 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] WARN  com.banque.msoc.service.OcNotificationService - [MS-OC SSE] Aucun client connecté. Notification sauvegardée uniquement en BDD.
+2026-10-12 10:05:56.199 [http-nio-8082-exec-5] INFO  com.banque.msoc.service.OcNotificationService - [MS-OC SSE] Nouveau client connecté. Clients actifs: 1
+2026-10-12 10:05:56.256 [http-nio-8082-exec-5] INFO  com.banque.msoc.service.OcNotificationService - [MS-OC SSE] Event CONNECTED envoyé au client SSE.
+2026-10-12 10:09:32.655 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@21a5b599 (Erreur d'E/S: Invalid Operation, NOT Connected). Possibly consider using a shorter maxLifetime value.
+2026-10-12 10:09:37.699 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@12b7fbfe (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-10-12 10:10:03.163 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4f56adb2 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-10-12 10:14:19.162 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: partitions revoked: [station.oc.inbound-0]
+2026-10-12 10:14:19.513 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.kafka.listener.KafkaMessageListenerContainer - ms-oc-consumer: Consumer stopped
+2026-10-12 10:14:19.524 [http-nio-8082-exec-10] INFO  com.banque.msoc.service.OcNotificationService - [MS-OC SSE] Timeout client. Clients actifs: 0
+2026-10-12 10:14:19.557 [http-nio-8082-exec-10] INFO  com.banque.msoc.service.OcNotificationService - [MS-OC SSE] Client déconnecté. Clients actifs: 0
+2026-10-12 10:14:19.963 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-12 10:14:19.977 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-12 10:14:21.174 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
