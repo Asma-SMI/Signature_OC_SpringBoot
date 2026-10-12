@@ -48,6 +48,7 @@ public class OcFlowMapper {
                 )
                 .summaryDetail(toSummaryDetailResponse(flow.getDetail()))
                 .detail(null)
+                .valid(flow.getValid())
                 .build();
     }
 
@@ -69,6 +70,7 @@ public class OcFlowMapper {
                 .detail(flow.getDetail() == null ? null : toDetailResponse(flow.getDetail()))
                 .summaryDetail(null)
                 .createdAt(flow.getCreatedAt())
+                .valid(flow.getValid())
                 .build();
     }
 

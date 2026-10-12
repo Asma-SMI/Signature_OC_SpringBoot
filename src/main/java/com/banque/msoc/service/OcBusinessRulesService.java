@@ -5,6 +5,7 @@ import com.banque.msoc.domain.entity.OcOperation;
 import com.banque.msoc.domain.enums.OcDecision;
 import com.banque.msoc.domain.enums.OcFlowStatus;
 import com.banque.msoc.domain.enums.OcOperationStatus;
+import com.banque.msoc.domain.enums.SignatureStatus;
 import com.banque.msoc.exception.InvalidDecisionException;
 import com.banque.msoc.exception.InvalidStatusTransitionException;
 import com.banque.msoc.exception.OperationAlreadyFinalizedException;
@@ -24,12 +25,47 @@ public class OcBusinessRulesService {
         }
     }
 
+
     public void assertFlowModifiable(OcFlow flow) {
-        if (flow.getStatus() == OcFlowStatus.ACCEPTED || flow.getStatus() == OcFlowStatus.REJECTED || flow.getStatus() == OcFlowStatus.RESPONSE_REQUESTED) {
-            throw new InvalidStatusTransitionException("Le dossier est déjà finalisé et ne peut plus être modifié.");
+
+        if (flow == null) {
+            throw new InvalidDecisionException(
+                    "Dossier OC introuvable."
+            );
         }
-        if (flow.getStatus() == OcFlowStatus.SIGNATURE_INVALID) {
-            throw new InvalidStatusTransitionException("Le dossier est bloqué car la signature entrante est invalide.");
+
+        // 1. Dossier deja finalise
+        if (flow.getStatus() == OcFlowStatus.ACCEPTED
+                || flow.getStatus() == OcFlowStatus.REJECTED
+                || flow.getStatus() == OcFlowStatus.RESPONSE_REQUESTED) {
+
+            throw new InvalidStatusTransitionException(
+                    "Le dossier est deja finalise et ne peut plus etre modifie."
+            );
+        }
+
+        // 2. Signature invalide
+        if (flow.getSignatureStatus() != SignatureStatus.VALID) {
+
+            throw new InvalidStatusTransitionException(
+                    "Le dossier est bloque car la signature entrante est invalide."
+            );
+        }
+
+        // 3. Nouveau controle : validite du flux TTN
+        if (!Boolean.TRUE.equals(flow.getValid())) {
+
+            throw new InvalidDecisionException(
+                    "Decision interdite : le flux TTN n'est pas valide."
+            );
+        }
+
+        // 4. Statut metier
+        if (flow.getStatus() != OcFlowStatus.PENDING_REVIEW) {
+
+            throw new InvalidStatusTransitionException(
+                    "Le dossier n'est pas en attente de traitement."
+            );
         }
     }
 

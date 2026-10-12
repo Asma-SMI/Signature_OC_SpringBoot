@@ -2,6 +2,7 @@ package com.banque.msoc.service;
 
 import com.banque.msoc.domain.entity.OcFlow;
 import com.banque.msoc.domain.enums.EventStatus;
+import com.banque.msoc.domain.enums.OcFlowStatus;
 import com.banque.msoc.dto.kafka.OcOutboundEventResponse;
 import com.banque.msoc.dto.rest.*;
 import com.banque.msoc.exception.FlowNotFoundException;
@@ -97,7 +98,11 @@ public class OcFlowQueryService {
 
         long fluxRejetes = auditRepository.countLatestRejected();
 
-        long fluxEnAttente = totalFlux - fluxAcceptes - fluxRejetes;
+       // long fluxEnAttente = totalFlux - fluxAcceptes - fluxRejetes;
+        long fluxEnAttente =
+                flowRepository.countByStatus(
+                        OcFlowStatus.PENDING_REVIEW
+                );
 
         long fluxErreurOutbound = outboundEventRepository.countByStatus(EventStatus.FAILED);
 

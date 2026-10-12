@@ -24,4 +24,5 @@ public class OcFlowResponse {
     private OcFlowDetailSummaryResponse summaryDetail; //résumé utile pour le tableau
     private LocalDateTime createdAt;
     private BigDecimal montantTotal;
+    private Boolean valid;
 }

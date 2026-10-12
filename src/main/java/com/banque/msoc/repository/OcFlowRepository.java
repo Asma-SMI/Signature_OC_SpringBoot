@@ -38,4 +38,6 @@ public interface OcFlowRepository extends JpaRepository<OcFlow, Long>, JpaSpecif
 
     @EntityGraph(attributePaths = {"detail"})
     List<OcFlow> findTop10ByOrderByCreatedAtDesc();
+
+    long countByStatus(OcFlowStatus status);
 }

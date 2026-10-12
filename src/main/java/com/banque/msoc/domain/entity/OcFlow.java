@@ -86,4 +86,7 @@ public class OcFlow {
         this.detail = detail;
         detail.setFlow(this);
     }
+
+    @Column(name = "FLUX_VALID")
+    private Boolean valid;
 }

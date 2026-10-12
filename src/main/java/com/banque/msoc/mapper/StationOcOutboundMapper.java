@@ -38,7 +38,7 @@ public class StationOcOutboundMapper {
         header.setRequestId(UUID.randomUUID().toString());
         header.setCorrelationId(correlationId);
         header.setPartner(partner);
-        header.setProcessId("OBLIG_CAUT");
+        header.setProcessId("OC");
         header.setDecision(
                 decision != null ? decision.name() : null
         );

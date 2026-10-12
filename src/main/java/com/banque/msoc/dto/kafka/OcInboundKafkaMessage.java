@@ -18,4 +18,5 @@ public class OcInboundKafkaMessage {
     private SignatureStatus signatureStatus;
     private LocalDateTime receivedAt;
     private OcInboundPayloadDto payload;
+    private Boolean valid;
 }

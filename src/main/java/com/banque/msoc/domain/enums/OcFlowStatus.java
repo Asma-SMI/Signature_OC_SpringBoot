@@ -3,6 +3,7 @@ package com.banque.msoc.domain.enums;
 public enum OcFlowStatus {
     RECEIVED,
     PENDING_REVIEW,
+    FLUX_INVALID,
     ACCEPTED,
     REJECTED,
     RESPONSE_REQUESTED,

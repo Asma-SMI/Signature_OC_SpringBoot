@@ -50,6 +50,9 @@ public class StationOcInboundMapper {
             target.setSignatureStatus(
                     station.getResult().getSignatureStatus()
             );
+            target.setValid(
+                    station.getResult().getValid()
+            );
         }
 
         OcInboundPayloadDto payload =

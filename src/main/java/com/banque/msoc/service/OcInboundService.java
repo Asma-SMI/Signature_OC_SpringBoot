@@ -54,9 +54,39 @@ public class OcInboundService {
                 .build());
 
         OcInboundPayloadDto p = message.getPayload();
-        OcFlowStatus status = message.getSignatureStatus() == SignatureStatus.INVALID
+
+        boolean fluxValid =
+                Boolean.TRUE.equals(message.getValid());
+
+        boolean signatureValid =
+                message.getSignatureStatus() == SignatureStatus.VALID;
+
+        boolean eligibleTraitement =
+                fluxValid && signatureValid;
+
+      /*  OcFlowStatus status = message.getSignatureStatus() == SignatureStatus.INVALID
                 ? OcFlowStatus.SIGNATURE_INVALID
-                : OcFlowStatus.PENDING_REVIEW;
+                : OcFlowStatus.PENDING_REVIEW;  */
+
+
+        OcFlowStatus status;
+
+        if (message.getSignatureStatus() != SignatureStatus.VALID) {
+
+            // Signature absente, inconnue ou invalide
+            status = OcFlowStatus.SIGNATURE_INVALID;
+
+        } else if (!fluxValid) {
+
+            // Signature valide mais flux refuse par la station
+            status = OcFlowStatus.FLUX_INVALID;
+
+        } else {
+
+            // Flux valide et signature valide
+            status = OcFlowStatus.PENDING_REVIEW;
+        }
+
 
         LocalDateTime now = LocalDateTime.now();
 
@@ -66,6 +96,7 @@ public class OcInboundService {
                 .flowType("OBLIG_CAUTIONNEE")
                 .source(message.getSource())
                 .signatureStatus(message.getSignatureStatus())
+                .valid(message.getValid())
                 .status(status)
                 .correlationId(message.getCorrelationId())
                 .inboundMessageId(message.getMessageId())
@@ -78,7 +109,7 @@ public class OcInboundService {
 
         payloadService.savePayload(flow, PayloadType.INBOUND, originalJson, "KAFKA");
 
-        if (message.getSignatureStatus() == SignatureStatus.VALID) {
+        if (eligibleTraitement) {
             operationRepository.save(OcOperation.builder()
                     .flow(flow)
                     .businessKey(flow.getBusinessKey())
